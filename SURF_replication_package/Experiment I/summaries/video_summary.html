@@ -1,0 +1,813 @@
+<html>
+<head>
+<h1>APP REVIEWS SUMMARY</h1>
+<script type="text/javascript">
+function messagePopup(message_id) {
+var stili = "top=10, left=10, width=400, height=250, location=no, directories=no, status=no, menubar=no, toolbar=no scrollbars=no";
+var testo = window.open("", "", stili);
+testo.document.write("<html>\n");
+testo.document.write(" <head>\n");
+testo.document.write("  <title>Review Details</title>\n");
+testo.document.write("  <basefont size=2 face=Tahoma>\n");
+testo.document.write(" </head>\n");
+switch(message_id){
+	case 0:  reviewText=".."; appVersion=""; user=""; title=""; date=""; rating=""; break;
+	case 1:  reviewText="Google playapp"; appVersion=""; user=""; title=""; date=""; rating=""; break;
+	case 2:  reviewText="How do I download this app Am I too late for the party?"; appVersion=""; user="Neil Dala"; title=""; date=""; rating=""; break;
+	case 3:  reviewText="Can't play video while im seeking Pls fix this bugCant play mkv 5.1 with audio"; appVersion=""; user="sAju MaThEw"; title=""; date=""; rating=""; break;
+	case 4:  reviewText="Me gustara probarla grasias"; appVersion=""; user="Ramon Manolo Zabala Garcia"; title=""; date=""; rating=""; break;
+	case 5:  reviewText="My librairy should be  ma vidothque  in french and not  ma musitheque  which stands for music... What s the use of the my stream part and where does the vido come from ?"; appVersion=""; user="Nico G."; title=""; date=""; rating=""; break;
+	case 6:  reviewText="Hallo"; appVersion=""; user="Pramod Banchoor"; title=""; date=""; rating=""; break;
+	case 7:  reviewText="Hi everyone, I'm on Xperia M2 and my Video app is on version 8.0.A.2.4. But I see here that latest version is 9.x. And nor play store neither update center show any updates. Does that mean that my device is not supported anymore? Or is there anything I can do to update the app?"; appVersion=""; user="Vijay Kumar"; title=""; date=""; rating=""; break;
+	case 8:  reviewText="Hi Sony Video Beta Team  Today I'm thinking about Video Beta Application One More Suggestions for you, Including Hide Video Options Just Like Sony Album Apps"; appVersion=""; user="Haris Xperia"; title=""; date="2015-11-13"; rating=""; break;
+	case 9:  reviewText="Need manual codec available. Cause it don't support ac3 audio. none of my that HD sound quality movie have sound on video"; appVersion=""; user="Shuvro Mojumder (Nero White)"; title=""; date="2015-11-10"; rating=""; break;
+	case 10:  reviewText="It would be better if you have changed the layout of the main screen to cards with the purpose of (Materia Design) as the other applications of Sony (What's New and Music)."; appVersion=""; user="Guilherme G. Almeida"; title=""; date="2015-11-07"; rating=""; break;
+	case 11:  reviewText="Please...... Add this button."; appVersion=""; user="Umesh soni"; title=""; date="2015-11-07"; rating=""; break;
+	case 12:  reviewText="Pls add option to choose theme . Light and dark theme"; appVersion=""; user="Mohd Hilman"; title=""; date="2015-11-04"; rating=""; break;
+	case 13:  reviewText="Plase add \ mark feature\  when we long press videos,so we can delete mupltiple videos"; appVersion=""; user="Rudy Tantono"; title=""; date="2015-11-04"; rating=""; break;
+	case 14:  reviewText="Add aspect ratio options for play back and please cover all damn video formats."; appVersion=""; user="Rajan Raj"; title=""; date="2015-11-02"; rating=""; break;
+	case 15:  reviewText="quick play button for the last video or movie played"; appVersion=""; user="raffy manalaysay"; title=""; date="2015-10-30"; rating=""; break;
+	case 16:  reviewText="It would be great this option, why hide a video in the app (Album) he still appears in the application (Video)."; appVersion=""; user="Guilherme G. Almeida"; title=""; date="2015-11-04"; rating=""; break;
+	case 17:  reviewText="I would kindly suggest.. U bring back the play back at the top of the app.. Showing a preview.. It used to look cool.. Now at the top no it only displays previous played videos.. Shuffling as if it's an album.. Quite disappointed"; appVersion=""; user="Ismail Mabruk"; title=""; date="2015-10-30"; rating=""; break;
+	case 18:  reviewText="Why can't I play my videos?"; appVersion=""; user="Jonas Gyr"; title=""; date=""; rating=""; break;
+	case 19:  reviewText="Please work on the sound and video difference and when you pause a video then play it after a while it lags /takes time to play"; appVersion=""; user="Robson Siankombo"; title=""; date=""; rating=""; break;
+	case 20:  reviewText="According to all the members of this community, got some combined suggestions...1.In built gesture control for brightness, volume, fast forward and rewind2.Support for AC3, DivX and Xvid decoders3.Fix for  Cannot play video  in My Stream section4.Add a lock screen feature5.A screen capture feature6.Manual orientation option7.White landing page8.4k videos cannot be played in latest update; please fix9.Not smooth when swiping forwards and backwards; fix needed10.On screen option to set the screen size; 16:9 or 4:3...11.Option to set quality for the  My Stream section as the videos are shown in low quality12. Option to add subtitles via external files"; appVersion=""; user="Prasad Daki"; title=""; date=""; rating=""; break;
+	case 21:  reviewText="Can't delete from history (that video I deleted on SD card but still it showing)"; appVersion=""; user="Shuvro Mojumder (Nero White)"; title=""; date=""; rating=""; break;
+	case 22:  reviewText="Still doesn't fix the wrong Sorting on Folder if it's in Alphabetical."; appVersion=""; user="Carlee Garcia"; title=""; date=""; rating=""; break;
+	case 23:  reviewText="Video should not stuck while forwarding"; appVersion=""; user="AMAN RATHI"; title=""; date=""; rating=""; break;
+	case 24:  reviewText="When using seekbar, it doest play exact frame usually. But it goes some secend back.It's annoying"; appVersion=""; user="Mohammad Mahdi Razzaghi"; title=""; date=""; rating=""; break;
+	case 25:  reviewText="You don't give tha Arabia same this program! please we need it"; appVersion=""; user="saud Ali"; title=""; date=""; rating=""; break;
+	case 26:  reviewText="Bug: Action Bar(RED) showing on Home"; appVersion=""; user="Carlee Garcia"; title=""; date=""; rating=""; break;
+	case 27:  reviewText="I guess the Video App has a performance issue. I need to constantly close then relaunch it to play movies. VLC doesn't have that problem. Any thoughts?"; appVersion=""; user="Sairon Jay Grepo"; title=""; date=""; rating=""; break;
+	case 28:  reviewText="Am i wrong or is playstation video app missing on z3+ and tablet z4? Can't Access my ps Videos right now and last apk from ps video Can't be installed..."; appVersion=""; user="Daniel Eissler SirRobin"; title=""; date=""; rating=""; break;
+	case 29:  reviewText="Ohh yea some mkv video play perfect but without sound"; appVersion=""; user="DJ John (John D'souza)"; title=""; date=""; rating=""; break;
+	case 30:  reviewText="Hi Dev team, I have found AVI cannot be played with Video app. And this issue is not resolved clearly. Kindly consider it. Thank"; appVersion=""; user="Joseph Sing"; title=""; date=""; rating=""; break;
+	case 31:  reviewText="WRONG INDEXING ?    I've downloaded video (mp4) via opera app. It's been saved into download folder (internal memory). As you can see mx player detected video and shew it but video app didn't. (video is supported by video app - i tried to open video manualy from file manager, using to playing video app)"; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 32:  reviewText="to previous post about  SUBTITLES ISSUE    this is the screenvideo from mx player. It plays subtiles correctly and after time's over they hide. Pls fix your issues."; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 33:  reviewText="No one answered me I have some problems down"; appVersion=""; user="Mohammed Shalan"; title=""; date=""; rating=""; break;
+	case 34:  reviewText="LONG LOADING TIME    can you please fix this issue? I have latest version of video app and this is happening. Even if it's downloaded viseo, recorded video or whatever, still long time of its loading. It's not normal, it should be smooth and fast... (xperia z3, lollipop 5.0.2)"; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 35:  reviewText="There is some problem with my video player.. I played a movie in landscape mode and after pausing it and going to another application the movie didn't resumed correctly it shows black screen but with audio!"; appVersion=""; user="Ayush Lohia"; title=""; date=""; rating=""; break;
+	case 36:  reviewText="1. While taking screen shot the buttons disappear(pic 2). I tried it many times it does not come in the picture. I got it once only that also very faint. 2. The no of buttons are different for different length videos."; appVersion=""; user="Neel Sancheti"; title=""; date=""; rating=""; break;
+	case 37:  reviewText="I cannot play 4k videos on tha latest update"; appVersion=""; user="ahmed ashjau"; title=""; date=""; rating=""; break;
+	case 38:  reviewText="I'll forward the video, the video that gets stuck...(only 1080p&720p videos)"; appVersion=""; user="Umesh soni"; title=""; date=""; rating=""; break;
+	case 39:  reviewText="Video skipping doesn't work anymore."; appVersion=""; user="Fadi Obaya"; title=""; date=""; rating=""; break;
+	case 40:  reviewText="Will it work with Android 5.1? It made my phone get crazy and it is still this way."; appVersion=""; user="Yeison Alzate Lpez"; title=""; date=""; rating=""; break;
+	case 41:  reviewText="Video doesn't move while seeking..sound still play but video stuck"; appVersion=""; user="sAju MaThEw"; title=""; date=""; rating=""; break;
+	case 42:  reviewText="Wrong sorting on Folder if sorting by name. The sorting goes like this Guilty Crown Episode 1, Guilty Crown Episode 10, Guilty Crown Episode 11, Guilty Crown Episode 2, Guilty Crown Episode 3 instead of 1234567891011."; appVersion=""; user="Carlee Garcia"; title=""; date=""; rating=""; break;
+	case 43:  reviewText="Now if i want speeding videos, i must click 2 times, bcause for the first one, that thumbnail errorSorry for bad englishhope u can understandSee video below"; appVersion=""; user="Rudy Tantono"; title=""; date=""; rating=""; break;
+	case 44:  reviewText="Found Bugs on the Latest Beta release- When deleting a video from the main screen the Video thumbnail remains visible on the screen. It only disappers when navigating to other menus or exiting the app-PlayStation Video Thumbnails takes some time to populate under My Streams Tab. Crackle (awful video service) however shows up immediately under My Stream Tab-There is a lag in the video playback while seeking a point in the video. The audio plays just fine but the video freezes then it catches up with the audio playback.Tested on Xperia Z3C (5.1.1)"; appVersion=""; user="Khaled Badwan"; title=""; date=""; rating=""; break;
+	case 45:  reviewText="Hi I have noticed some problems with video app 3-4 months ago. I used to be able to play mp4 file with SRT subtitle file with no problem but now subtitle keeps disappear or doesn't show, even worse the film went dark screen and other video with no subtitle cannot be played (seems like SRT file in the same folder of the film with the same name effects the rest of the movies files and app). I wonder why sub feature does not work any more. Is it a bug?and why many updates since never seemed to fix this issue. Any advice please?"; appVersion=""; user="Pilan Kulpavaropas"; title=""; date=""; rating=""; break;
+	case 46:  reviewText="the video player has some issue with sound..while i play videos in between around 5-6 min thers a wierd sound for a second as if the movie is been played on a scratched dis..ALSO PLZZ GET FULL SCREEN MODE BACK..ITS REALY ANNOYN..THE VIDEO PLAYER HAS BEST SOUND THAN ANY OTHER VIDEO PLAYER I TRYD...JUST COZ OF NO FULL SCREEN MOD I HAVE TO USE MX VIDEO PLAYER"; appVersion=""; user="DJ John (John D'souza)"; title=""; date=""; rating=""; break;
+	case 47:  reviewText="1,5 month since previous beta version and the new thing is just history folder? Seriously? So many unsupported video formats and subtitles issue still reamins and you di this....? Worst then before!!! See in screenvideo. In MX Player everythig goes fine but in Video app subtitles are after video duration skipping frozen or not shown at all. This is nightmare. It has a long way to become just a normal video player and not yet my default. I have no time, mood. Im done. In Music app, Movie creator, Album, Sketch, TrackID or LIfelog the progress is seen at least but here just big nothing. Sorry. :("; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 48:  reviewText="DETECTED UNPLAYABLE VIDEO    despite there are many unsupported video formats (mov, ogv, wmv, flv, mpg - hopefully in near future will be some kind of codec included into player to support most common formats) theres glitch with video detection. as you can se in video, video app detects video which is unplayable (also I am not able to see info about it!) but it shows in video list. why? when its not supported it shouldnt be visible, should it?"; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 49:  reviewText="SUBTITLES ISSUE ISSUE    subtitles are still shown till new show. And also after their time's over. See in video. Next post will be the same section but with another player."; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 50:  reviewText="INDEXING    I have issue with indexing files. When I download video via browser (using opera) it doesn't show up in video app in recently (new) added files. But in other player (mx player) it does. So it's not browser glitch since not-yours player detects video and yours not. And there's no refresh button to force rescan."; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 51:  reviewText="There Is Some File With MKV Formate Work And Some Not Working And Some Is Working But It;s Is Lagging And None Of Them Have The Subtitles Whthere It In The Video(File) Or In File .srt PLease Fix T_T"; appVersion=""; user="Mohammed Shalan"; title=""; date=""; rating=""; break;
+	case 52:  reviewText="Hi Sony Video Beta Team  Today I'm thinking about Video Beta Application One More Suggestions for you, Including Hide Video Options Just Like Sony Album Apps"; appVersion=""; user="Haris Xperia"; title=""; date="2015-11-13"; rating=""; break;
+	case 53:  reviewText="Need manual codec available. Cause it don't support ac3 audio. none of my that HD sound quality movie have sound on video"; appVersion=""; user="Shuvro Mojumder (Nero White)"; title=""; date="2015-11-10"; rating=""; break;
+	case 54:  reviewText="It would be better if you have changed the layout of the main screen to cards with the purpose of (Materia Design) as the other applications of Sony (What's New and Music)."; appVersion=""; user="Guilherme G. Almeida"; title=""; date="2015-11-07"; rating=""; break;
+	case 55:  reviewText="Please...... Add this button."; appVersion=""; user="Umesh soni"; title=""; date="2015-11-07"; rating=""; break;
+	case 56:  reviewText="Pls add option to choose theme . Light and dark theme"; appVersion=""; user="Mohd Hilman"; title=""; date="2015-11-04"; rating=""; break;
+	case 57:  reviewText="Plase add \ mark feature\  when we long press videos,so we can delete mupltiple videos"; appVersion=""; user="Rudy Tantono"; title=""; date="2015-11-04"; rating=""; break;
+	case 58:  reviewText="Add aspect ratio options for play back and please cover all damn video formats."; appVersion=""; user="Rajan Raj"; title=""; date="2015-11-02"; rating=""; break;
+	case 59:  reviewText="quick play button for the last video or movie played"; appVersion=""; user="raffy manalaysay"; title=""; date="2015-10-30"; rating=""; break;
+	case 60:  reviewText="It would be great this option, why hide a video in the app (Album) he still appears in the application (Video)."; appVersion=""; user="Guilherme G. Almeida"; title=""; date="2015-11-04"; rating=""; break;
+	case 61:  reviewText="I would kindly suggest.. U bring back the play back at the top of the app.. Showing a preview.. It used to look cool.. Now at the top no it only displays previous played videos.. Shuffling as if it's an album.. Quite disappointed"; appVersion=""; user="Ismail Mabruk"; title=""; date="2015-10-30"; rating=""; break;
+	case 62:  reviewText="Hi Sony Video Beta Team Today I'm thinking about Video Beta Application One More Suggestions for you, Including Hide Video Options Just Like Sony Album Apps"; appVersion=""; user="Haris Xperia"; title=""; date=""; rating=""; break;
+	case 63:  reviewText="It would be better if you have changed the layout of the main screen to cards with the purpose of (Materia Design) as the other applications of Sony (What's New and Music)."; appVersion=""; user="Guilherme G. Almeida"; title=""; date=""; rating=""; break;
+	case 64:  reviewText="Pls add option to choose theme . Light and dark theme"; appVersion=""; user="Mohd Hilman"; title=""; date=""; rating=""; break;
+	case 65:  reviewText="Plase add  mark feature  when we long press videos,so we can delete mupltiple videos"; appVersion=""; user="Rudy Tantono"; title=""; date=""; rating=""; break;
+	case 66:  reviewText="quick play button for the last video or movie played"; appVersion=""; user="raffy manalaysay"; title=""; date=""; rating=""; break;
+	case 67:  reviewText="Play Or Pause face detection just like both China Mobile Phone"; appVersion=""; user="Haris Xperia"; title=""; date=""; rating=""; break;
+	case 68:  reviewText="Please Sony, I've got trouble with videos not sorting into files. When I go into file commander there I see all the files with videos sorted to categories, but when I go into video app there it is under file camera (fotoapart in Czech) eventho I downloaded some of them from the Internet. Please help me with this, it's annoying. Thank you."; appVersion=""; user="denisdenyjamny"; title=""; date=""; rating=""; break;
+	case 69:  reviewText="Need it built-in brightness Control Option"; appVersion=""; user="Haris Xperia"; title=""; date=""; rating=""; break;
+	case 70:  reviewText="How about a lock button like on the vlc video player."; appVersion=""; user="raffy manalaysay"; title=""; date=""; rating=""; break;
+	case 71:  reviewText="Add a share option from the pop up menu in main screen, it saves up time and there is no need to open the video."; appVersion=""; user="Nestor Rolon"; title=""; date=""; rating=""; break;
+	case 72:  reviewText="Need manual codec available. Cause it don't support ac3 audio. none of my that HD sound quality movie have sound on video"; appVersion=""; user="Shuvro Mojumder (Nero White)"; title=""; date=""; rating=""; break;
+	case 73:  reviewText="Please...... Add this button."; appVersion=""; user="Umesh soni"; title=""; date=""; rating=""; break;
+	case 74:  reviewText="It would be great this option, why hide a video in the app (Album) he still appears in the application (Video)."; appVersion=""; user="Guilherme G. Almeida"; title=""; date=""; rating=""; break;
+	case 75:  reviewText="Add aspect ratio options for play back and please cover all damn video formats."; appVersion=""; user="Rajan Raj"; title=""; date=""; rating=""; break;
+	case 76:  reviewText="I would kindly suggest.. U bring back the play back at the top of the app.. Showing a preview.. It used to look cool.. Now at the top no it only displays previous played videos.. Shuffling as if it's an album.. Quite disappointed"; appVersion=""; user="Ismail Mabruk"; title=""; date=""; rating=""; break;
+	case 77:  reviewText="I hope that, like in Album app, the hide option will be made available one day.And also, please bring back the preview of the latest played video on the header of the main screen just like before."; appVersion=""; user="Raymond De Guzman"; title=""; date=""; rating=""; break;
+	case 78:  reviewText="Please add shuffle on next release. I know you can do it team. Thanks."; appVersion=""; user="Richard F."; title=""; date=""; rating=""; break;
+	case 79:  reviewText="Do you intend to add gesture controls for brightness/sound/fast-forward/backward?The app is pretty far behind the competition becase of that."; appVersion=""; user="Josip Bartulovic"; title=""; date=""; rating=""; break;
+	case 80:  reviewText="Please added scene capture button"; appVersion=""; user="Haris Xperia"; title=""; date=""; rating=""; break;
+	case 81:  reviewText="please add swipe to forward and black theme switch option"; appVersion=""; user="Zuhaib Adil"; title=""; date=""; rating=""; break;
+	case 82:  reviewText="Just wondering, are you going to make it available for the Sony marshmallow concept?"; appVersion=""; user=""; title=""; date=""; rating=""; break;
+	case 83:  reviewText="when playing videos MKV please ........."; appVersion=""; user="Jhon William"; title=""; date=""; rating=""; break;
+	case 84:  reviewText="How Can I Download This Beta Version Of App In Xiaomi RedMi2.Plz Help"; appVersion=""; user="CHIRAG PASSI"; title=""; date=""; rating=""; break;
+	case 85:  reviewText="What the heck happened to this app? What's new, album and music app gets better and better while this app is stuck with bugs. fix the subtitles and playback bugs already!!"; appVersion=""; user="Vinch M."; title=""; date=""; rating=""; break;
+	case 86:  reviewText="Captions is not supporting..."; appVersion=""; user="Umesh soni"; title=""; date=""; rating=""; break;
+	case 87:  reviewText="Still average :/ Suitable for watching videos took by phone only (because of weak codecs). There're many  envelope  formats such as avi, matroska etc. which these codecs do not support."; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 88:  reviewText="Hi,The icon is nice, But can Sony add big shadow for the video logo inside the circle ?"; appVersion=""; user="Alaa BuHussaien"; title=""; date=""; rating=""; break;
+	case 89:  reviewText="Me gusta los videos"; appVersion=""; user="Edilberto Santillan"; title=""; date=""; rating=""; break;
+	case 90:  reviewText="Selam"; appVersion=""; user="Oulcan AKDAL"; title=""; date=""; rating=""; break;
+	case 91:  reviewText="Ver 9.4.A.0.4Beta is nice. It's the first of the trio media apps to introduce light theme. Many things reported by user have been improved in right direction. Good job :)I only have a couple of suggestions now:1- Home screen should have white background to make UI more consistent2- Why isn't the header which show recent video not animated like before? I think this is the Video app not Album so everything should be animated from video thumbnails to header bar to video name (those that are too long)3- Side menu could have semi-transparant background like What's new but it's not mandatory, I just want a more consistent UI across apps. Music start to use main purple color with green accent color in the UI which I think is nice so why don't Video and Album do the same? (like red-cyan and yellow-blue for example)The rest is good. Keep up your good work."; appVersion=""; user="Nguyn Sony"; title=""; date=""; rating=""; break;
+	case 92:  reviewText="Segn la especificaciones dice que se puede ejecutar en pantalla pequea mientras realizas otras acciones pero no es as, si quieres abrir otra aplicacin o si minimisas se cierra. No funciona tan bien como dice"; appVersion=""; user="Gabriel Hernndez Snchez"; title=""; date=""; rating=""; break;
+	case 93:  reviewText="Como la descargo?? No me sale ningn link"; appVersion=""; user="sibiany cubillo romero siby181"; title=""; date=""; rating=""; break;
+	case 94:  reviewText="Quisiera descargarla pero mo se como. Alguien que me ayudeeeee"; appVersion=""; user="Paolo Parick Lizarraga Morera"; title=""; date=""; rating=""; break;
+	case 95:  reviewText="Me gustara probar esta aplicacin"; appVersion=""; user="Julio Rodriguez"; title=""; date=""; rating=""; break;
+	case 96:  reviewText="))"; appVersion=""; user=""; title=""; date=""; rating=""; break;
+	case 97:  reviewText="[Just For Fun]LoL Description ever NOT COMPATIBLE WITH IOSI never seen Sony using an ios system"; appVersion=""; user="Jason Theopilus"; title=""; date=""; rating=""; break;
+	case 98:  reviewText="Mmm. Pues la app est bien solo que hay un problema que mi Xperia L cuando abro la app y quiero ver un video me dice. este video no se puede reproducir en este momento. La app me funciona y todo pero ese problema es debes otro en cuando"; appVersion=""; user="hector javier espinoza escobar"; title=""; date=""; rating=""; break;
+	case 99:  reviewText="I think more formats should be added to new version."; appVersion=""; user="Moiz Hussain"; title=""; date=""; rating=""; break;
+	case 100:  reviewText="Yaa it's awesome but can it play the video which can't be played... I mean to say format videos"; appVersion=""; user="shanker chintu"; title=""; date=""; rating=""; break;
+	case 101:  reviewText="C j ht"; appVersion=""; user="Nguyen minh hai"; title=""; date=""; rating=""; break;
+	case 102:  reviewText="Why are my Privalage plus movies not in the same library as my other movies from ps video and video? Chromecast support needed!"; appVersion=""; user="Cossie Lover (CossieLover1369)"; title=""; date=""; rating=""; break;
+	case 103:  reviewText="When using mirror to stream onto my TV I could hear sound but the picture was very slow. About 1 frame every 5 seconds."; appVersion=""; user="Neil Walton"; title=""; date=""; rating=""; break;
+	case 104:  reviewText="Hola soy de argentina"; appVersion=""; user="Omar Chungara"; title=""; date=""; rating=""; break;
+	case 105:  reviewText="Hello, I've followed every required step to becoming a better tester but it keeps telling me that the apps isn't available on Google play store."; appVersion=""; user="Elijah Oyetunde"; title=""; date=""; rating=""; break;
+	case 106:  reviewText="Spiderman"; appVersion=""; user="kshitij isasare"; title=""; date=""; rating=""; break;
+	case 107:  reviewText="Je n'arrive pas installer Sony vido bta sur xperia z1 version 5.0.2"; appVersion=""; user="Rhamisse Smires"; title=""; date=""; rating=""; break;
+	case 108:  reviewText="Hello im from Indonesia"; appVersion=""; user="Aswar Alif"; title=""; date=""; rating=""; break;
+	case 109:  reviewText="Hey, does it consume less battery when playing the music video background? Does it consume same battery as normal mp3?"; appVersion=""; user="Tan Keeyong"; title=""; date=""; rating=""; break;
+	case 110:  reviewText="The only reason why I'm using MXplayer instead of this default Xperia player is the support for other format and subtitle."; appVersion=""; user="Jhonbert Magana (3rdflyleaf)"; title=""; date=""; rating=""; break;
+	case 111:  reviewText="Why isn't this app available for 4.2? All other media apps are 4.2 friendly"; appVersion=""; user="Takuya Kousaka"; title=""; date=""; rating=""; break;
+	case 112:  reviewText="Anyone got a link for the newest beta?I can't download it from the playstore."; appVersion=""; user="Petar Mati"; title=""; date=""; rating=""; break;
+	case 113:  reviewText="Why is there no support for the sony xperia e1 d2005?"; appVersion=""; user="Danny Piper (Dan A.!)"; title=""; date=""; rating=""; break;
+	case 114:  reviewText="Do you plan create copmlex app, someting like MX Player, or just this cut version with poor settings? Because in this stage app is unsless for average user."; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 115:  reviewText="I have Xperia Z3+. I cannot download the PlayStation video app, or access ps video within the video app. This means that I cannot access movies that I own which were downloaded previously. Please fix. Thanks"; appVersion=""; user="Greg Keyes"; title=""; date=""; rating=""; break;
+	case 116:  reviewText="when playing videos MKV please ........."; appVersion=""; user="Jhon William"; title=""; date=""; rating=""; break;
+	case 117:  reviewText="A new update just came in. What's the changelog?"; appVersion=""; user="Fadi Obaya"; title=""; date=""; rating=""; break;
+	case 118:  reviewText="After the update i have this problem when i seek the video It can't play video then i can't play any video again"; appVersion=""; user="Haitham Buriqi"; title=""; date=""; rating=""; break;
+	case 119:  reviewText="Please make video zoom more smooth..!!"; appVersion=""; user="ahmed ashjau"; title=""; date=""; rating=""; break;
+	case 120:  reviewText="Please add some controlling features from players like MX-Player"; appVersion=""; user="Omid Heydari"; title=""; date=""; rating=""; break;
+	case 121:  reviewText="Stil not in the Netherlands?? :("; appVersion=""; user="Melvyn Scheepmaker"; title=""; date=""; rating=""; break;
+	case 122:  reviewText="Davvero ottima l'idea dei trailer, grafica dell'app molto bella e all'avanguardia! Continua cos Sony"; appVersion=""; user="Giovanni Nitti"; title=""; date=""; rating=""; break;
+	case 123:  reviewText=""; appVersion=""; user="Vladik Vit"; title=""; date=""; rating=""; break;
+	case 124:  reviewText="Quiero probar la app"; appVersion=""; user="luis moreno"; title=""; date=""; rating=""; break;
+	case 125:  reviewText="How do I download the app?"; appVersion=""; user="Cam Wild"; title=""; date=""; rating=""; break;
+	case 126:  reviewText="No hay Link de descarga para Bolivia"; appVersion=""; user="Fernando Aracena"; title=""; date=""; rating=""; break;
+	case 127:  reviewText="Me gustara probar la aplicacin ya que me encanta ver pelculas movies love"; appVersion=""; user="PEPE DJ-XT"; title=""; date=""; rating=""; break;
+	case 128:  reviewText="Me gustara probar el Sony video beta para ver qu tiene de nuevo"; appVersion=""; user="Eyeless Orlando j. p."; title=""; date=""; rating=""; break;
+	case 129:  reviewText="Me gustara conocer esta app de sony"; appVersion=""; user="Javier Cordoba"; title=""; date=""; rating=""; break;
+	case 130:  reviewText="It's OK a bit slow"; appVersion=""; user="armando mariconda"; title=""; date=""; rating=""; break;
+	case 131:  reviewText="Can I try the beta or download somewhere?"; appVersion=""; user="Mrten silverstig"; title=""; date=""; rating=""; break;
+	case 132:  reviewText="You should support more play formats."; appVersion=""; user=""; title=""; date=""; rating=""; break;
+	case 133:  reviewText="Nice"; appVersion=""; user="Andriadi Perdana Putra"; title=""; date=""; rating=""; break;
+	case 134:  reviewText="Hello, im Russian :)"; appVersion=""; user="Good Fyro"; title=""; date=""; rating=""; break;
+	case 135:  reviewText="INSTALANDO BETA, GRACIAS"; appVersion=""; user="G.Roln Rolon"; title=""; date=""; rating=""; break;
+	case 136:  reviewText="Hello I am new"; appVersion=""; user="Mohammed Khaled"; title=""; date=""; rating=""; break;
+	case 137:  reviewText="Super sony!"; appVersion=""; user=""; title=""; date=""; rating=""; break;
+	case 138:  reviewText="MDR!"; appVersion=""; user="Mehdi Moujahid"; title=""; date=""; rating=""; break;
+	case 139:  reviewText="Hola quisiera saber si alguien sabe por qu mi Sony Xperia m2 no sepuede actualizar, por favor :)"; appVersion=""; user="Marcelo Cid"; title=""; date=""; rating=""; break;
+	case 140:  reviewText="Hola, bonjour, Hello!!"; appVersion=""; user="Jimena Buitrn"; title=""; date=""; rating=""; break;
+	case 141:  reviewText="Hi, I am not able to have the updated app.. I don't get it on what'snew. Can i have the apk?"; appVersion=""; user="Lakshminarasimhan Sundarrajan"; title=""; date=""; rating=""; break;
+	case 142:  reviewText="Can the Video app have support for DivX , DTS and AC3 decoders? Missing features..."; appVersion=""; user="Prasad Daki"; title=""; date=""; rating=""; break;
+	case 143:  reviewText="I think more should be supported video format. Mx player holding so. It should be improved subtitle support(.sub,.srt etc.). and audio codecs should be able to be added. formats such as AC3 should be supported. They would be amazed if anyone application."; appVersion=""; user="M.TOLGA AKGL"; title=""; date=""; rating=""; break;
+	case 144:  reviewText="Hi. I have two questions :#1: what's new in today's 9.2.A.0.6 update (beta or non-beta?) ?#2: why is video app pushed by google play and what's new too? What's new version is 9.2.A.0.6 (installed) but google play version is 9.2.A.0.0. Can you unite update channel?"; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 145:  reviewText="If video beta 9.2 is not compatible with xperia phones having kitkat (Z, ZL, ZR) then what is the use of being tester here.."; appVersion=""; user="Akshay Patil"; title=""; date=""; rating=""; break;
+	case 146:  reviewText="I bought a movie on my ps4 but I'm unable to watch it on my z3v. Video is activated on my phone. What am I doing wrong?"; appVersion=""; user="Rene Bravo"; title=""; date=""; rating=""; break;
+	case 147:  reviewText="I'm excited"; appVersion=""; user="Danny Piper (Dan A.!)"; title=""; date=""; rating=""; break;
+	case 148:  reviewText="Hi Sony Video Beta Team  Today I'm thinking about Video Beta Application One More Suggestions for you, Including Hide Video Options Just Like Sony Album Apps"; appVersion=""; user="Haris Xperia"; title=""; date="2015-11-13"; rating=""; break;
+	case 149:  reviewText="Need manual codec available. Cause it don't support ac3 audio. none of my that HD sound quality movie have sound on video"; appVersion=""; user="Shuvro Mojumder (Nero White)"; title=""; date="2015-11-10"; rating=""; break;
+	case 150:  reviewText="It would be better if you have changed the layout of the main screen to cards with the purpose of (Materia Design) as the other applications of Sony (What's New and Music)."; appVersion=""; user="Guilherme G. Almeida"; title=""; date="2015-11-07"; rating=""; break;
+	case 151:  reviewText="Please...... Add this button."; appVersion=""; user="Umesh soni"; title=""; date="2015-11-07"; rating=""; break;
+	case 152:  reviewText="Pls add option to choose theme . Light and dark theme"; appVersion=""; user="Mohd Hilman"; title=""; date="2015-11-04"; rating=""; break;
+	case 153:  reviewText="Plase add \ mark feature\  when we long press videos,so we can delete mupltiple videos"; appVersion=""; user="Rudy Tantono"; title=""; date="2015-11-04"; rating=""; break;
+	case 154:  reviewText="Add aspect ratio options for play back and please cover all damn video formats."; appVersion=""; user="Rajan Raj"; title=""; date="2015-11-02"; rating=""; break;
+	case 155:  reviewText="quick play button for the last video or movie played"; appVersion=""; user="raffy manalaysay"; title=""; date="2015-10-30"; rating=""; break;
+	case 156:  reviewText="It would be great this option, why hide a video in the app (Album) he still appears in the application (Video)."; appVersion=""; user="Guilherme G. Almeida"; title=""; date="2015-11-04"; rating=""; break;
+	case 157:  reviewText="I would kindly suggest.. U bring back the play back at the top of the app.. Showing a preview.. It used to look cool.. Now at the top no it only displays previous played videos.. Shuffling as if it's an album.. Quite disappointed"; appVersion=""; user="Ismail Mabruk"; title=""; date="2015-10-30"; rating=""; break;
+	case 158:  reviewText="Hi Sony Video Beta Team Today I'm thinking about Video Beta Application One More Suggestions for you, Including Hide Video Options Just Like Sony Album Apps"; appVersion=""; user="Haris Xperia"; title=""; date=""; rating=""; break;
+	case 159:  reviewText="It would be better if you have changed the layout of the main screen to cards with the purpose of (Materia Design) as the other applications of Sony (What's New and Music)."; appVersion=""; user="Guilherme G. Almeida"; title=""; date=""; rating=""; break;
+	case 160:  reviewText="Pls add option to choose theme . Light and dark theme"; appVersion=""; user="Mohd Hilman"; title=""; date=""; rating=""; break;
+	case 161:  reviewText="Plase add  mark feature  when we long press videos,so we can delete mupltiple videos"; appVersion=""; user="Rudy Tantono"; title=""; date=""; rating=""; break;
+	case 162:  reviewText="quick play button for the last video or movie played"; appVersion=""; user="raffy manalaysay"; title=""; date=""; rating=""; break;
+	case 163:  reviewText="Play Or Pause face detection just like both China Mobile Phone"; appVersion=""; user="Haris Xperia"; title=""; date=""; rating=""; break;
+	case 164:  reviewText="Please Sony, I've got trouble with videos not sorting into files. When I go into file commander there I see all the files with videos sorted to categories, but when I go into video app there it is under file camera (fotoapart in Czech) eventho I downloaded some of them from the Internet. Please help me with this, it's annoying. Thank you."; appVersion=""; user="denisdenyjamny"; title=""; date=""; rating=""; break;
+	case 165:  reviewText="Need it built-in brightness Control Option"; appVersion=""; user="Haris Xperia"; title=""; date=""; rating=""; break;
+	case 166:  reviewText="How about a lock button like on the vlc video player."; appVersion=""; user="raffy manalaysay"; title=""; date=""; rating=""; break;
+	case 167:  reviewText="Add a share option from the pop up menu in main screen, it saves up time and there is no need to open the video."; appVersion=""; user="Nestor Rolon"; title=""; date=""; rating=""; break;
+	case 168:  reviewText="Need manual codec available. Cause it don't support ac3 audio. none of my that HD sound quality movie have sound on video"; appVersion=""; user="Shuvro Mojumder (Nero White)"; title=""; date=""; rating=""; break;
+	case 169:  reviewText="Please...... Add this button."; appVersion=""; user="Umesh soni"; title=""; date=""; rating=""; break;
+	case 170:  reviewText="It would be great this option, why hide a video in the app (Album) he still appears in the application (Video)."; appVersion=""; user="Guilherme G. Almeida"; title=""; date=""; rating=""; break;
+	case 171:  reviewText="Add aspect ratio options for play back and please cover all damn video formats."; appVersion=""; user="Rajan Raj"; title=""; date=""; rating=""; break;
+	case 172:  reviewText="I would kindly suggest.. U bring back the play back at the top of the app.. Showing a preview.. It used to look cool.. Now at the top no it only displays previous played videos.. Shuffling as if it's an album.. Quite disappointed"; appVersion=""; user="Ismail Mabruk"; title=""; date=""; rating=""; break;
+	case 173:  reviewText="I hope that, like in Album app, the hide option will be made available one day.And also, please bring back the preview of the latest played video on the header of the main screen just like before."; appVersion=""; user="Raymond De Guzman"; title=""; date=""; rating=""; break;
+	case 174:  reviewText="Please add shuffle on next release. I know you can do it team. Thanks."; appVersion=""; user="Richard F."; title=""; date=""; rating=""; break;
+	case 175:  reviewText="Do you intend to add gesture controls for brightness/sound/fast-forward/backward?The app is pretty far behind the competition becase of that."; appVersion=""; user="Josip Bartulovic"; title=""; date=""; rating=""; break;
+	case 176:  reviewText="Please added scene capture button"; appVersion=""; user="Haris Xperia"; title=""; date=""; rating=""; break;
+	case 177:  reviewText="please add swipe to forward and black theme switch option"; appVersion=""; user="Zuhaib Adil"; title=""; date=""; rating=""; break;
+	case 178:  reviewText="I am Xperia crazy."; appVersion=""; user="Min Wai Tun"; title=""; date=""; rating=""; break;
+	case 179:  reviewText=""; appVersion=""; user=""; title=""; date=""; rating=""; break;
+	case 180:  reviewText="Quisiera probar la aplicacin"; appVersion=""; user="Blackazul13"; title=""; date=""; rating=""; break;
+	case 181:  reviewText="Me gustara probar la beta Muchas gracias ^^"; appVersion=""; user="inazumaeleven701"; title=""; date=""; rating=""; break;
+	case 182:  reviewText="Quiero probar la aplicacin"; appVersion=""; user="Ariel Vargas"; title=""; date=""; rating=""; break;
+	case 183:  reviewText="Me gustara probar la app"; appVersion=""; user="josu isaac alvarez may"; title=""; date=""; rating=""; break;
+	case 184:  reviewText="Please AC3 codec"; appVersion=""; user=""; title=""; date=""; rating=""; break;
+	case 185:  reviewText="Hola soy de Mxico"; appVersion=""; user="Andres Fabian"; title=""; date=""; rating=""; break;
+	case 186:  reviewText="Happy to join"; appVersion=""; user="Vickie Jones"; title=""; date=""; rating=""; break;
+	case 187:  reviewText="Hola"; appVersion=""; user="Jucarzu Jose Carlos"; title=""; date=""; rating=""; break;
+	case 188:  reviewText="Please +"; appVersion=""; user="Daniel Eissler SirRobin"; title=""; date=""; rating=""; break;
+	case 189:  reviewText="The first beta release of Video app will be available on 11th May.Please join this community !"; appVersion=""; user="Sony Video Team"; title=""; date=""; rating=""; break;
+	case 190:  reviewText="Hola"; appVersion=""; user="Miguel bauelos"; title=""; date=""; rating=""; break;
+	case 191:  reviewText="Es muy buena espero que ya la hagan oficial"; appVersion=""; user="hugo medina"; title=""; date=""; rating=""; break;
+	case 192:  reviewText="Adsadf"; appVersion=""; user="Celalettin Sivasl"; title=""; date=""; rating=""; break;
+	case 193:  reviewText="Sony, loving"; appVersion=""; user="Enrique Bilamos"; title=""; date=""; rating=""; break;
+	case 194:  reviewText="Badalona/barcelona"; appVersion=""; user="Mercedes Cantarero Gonzalez"; title=""; date=""; rating=""; break;
+	case 195:  reviewText="Descargando y probando gracias"; appVersion=""; user="Ruben Espinosa"; title=""; date=""; rating=""; break;
+	case 196:  reviewText="Es cool"; appVersion=""; user="Mike Marchan"; title=""; date=""; rating=""; break;
+	case 197:  reviewText="Hi ! I buy a sony xperia sp but I noticed that he is very slow when I put him in charge it takes around 2h15mn. is it normal ?? And thak you for your help :-)"; appVersion=""; user="Mehdi Moujahid"; title=""; date=""; rating=""; break;
+	case 198:  reviewText="This feature should also be there"; appVersion=""; user="Himalaya Dave"; title=""; date=""; rating=""; break;
+	case 199:  reviewText="We are going to start Video9.3 Beta testing from W26.Video9.3 beta is available for Sony Xperia devices of not only Android version 5.0 and later but also Android version 4.2, 4.3, 4.4.However, there is some limitations on Sony Xperia devices of Android version 4.2, 4.3 and 4.4.Here is limitation items of Video 9.3 beta version on Sony Xperia devices of Android version 4.2, 4.3 and 4.4.1. PS Video feature is not available. You cannot download and watch PS Video purchased contents.2. Odekake playback in Japanese specific feature is not stable.If you are a heavy user of PS Video service and Odekake feature, please pay attention.When you want to use PS Video service and Odekake feature again, please uninstall Video9.3 beta once.Of course, you can try all features on Sony Xperia devices of Android version 5.0 and later.Please wait a little more until Video9.3 beta is ready."; appVersion=""; user="Sony Video Team"; title=""; date=""; rating=""; break;
+	case 200:  reviewText="Hi Sony Video Beta Team  Today I'm thinking about Video Beta Application One More Suggestions for you, Including Hide Video Options Just Like Sony Album Apps"; appVersion=""; user="Haris Xperia"; title=""; date="2015-11-13"; rating=""; break;
+	case 201:  reviewText="Need manual codec available. Cause it don't support ac3 audio. none of my that HD sound quality movie have sound on video"; appVersion=""; user="Shuvro Mojumder (Nero White)"; title=""; date="2015-11-10"; rating=""; break;
+	case 202:  reviewText="It would be better if you have changed the layout of the main screen to cards with the purpose of (Materia Design) as the other applications of Sony (What's New and Music)."; appVersion=""; user="Guilherme G. Almeida"; title=""; date="2015-11-07"; rating=""; break;
+	case 203:  reviewText="Please...... Add this button."; appVersion=""; user="Umesh soni"; title=""; date="2015-11-07"; rating=""; break;
+	case 204:  reviewText="Pls add option to choose theme . Light and dark theme"; appVersion=""; user="Mohd Hilman"; title=""; date="2015-11-04"; rating=""; break;
+	case 205:  reviewText="Plase add \ mark feature\  when we long press videos,so we can delete mupltiple videos"; appVersion=""; user="Rudy Tantono"; title=""; date="2015-11-04"; rating=""; break;
+	case 206:  reviewText="Add aspect ratio options for play back and please cover all damn video formats."; appVersion=""; user="Rajan Raj"; title=""; date="2015-11-02"; rating=""; break;
+	case 207:  reviewText="quick play button for the last video or movie played"; appVersion=""; user="raffy manalaysay"; title=""; date="2015-10-30"; rating=""; break;
+	case 208:  reviewText="It would be great this option, why hide a video in the app (Album) he still appears in the application (Video)."; appVersion=""; user="Guilherme G. Almeida"; title=""; date="2015-11-04"; rating=""; break;
+	case 209:  reviewText="I would kindly suggest.. U bring back the play back at the top of the app.. Showing a preview.. It used to look cool.. Now at the top no it only displays previous played videos.. Shuffling as if it's an album.. Quite disappointed"; appVersion=""; user="Ismail Mabruk"; title=""; date="2015-10-30"; rating=""; break;
+	case 210:  reviewText="Pls add option to choose theme . Light and dark theme"; appVersion=""; user="Mohd Hilman"; title=""; date=""; rating=""; break;
+	case 211:  reviewText="Plase add  mark feature  when we long press videos,so we can delete mupltiple videos"; appVersion=""; user="Rudy Tantono"; title=""; date=""; rating=""; break;
+	case 212:  reviewText="quick play button for the last video or movie played"; appVersion=""; user="raffy manalaysay"; title=""; date=""; rating=""; break;
+	case 213:  reviewText="Play Or Pause face detection just like both China Mobile Phone"; appVersion=""; user="Haris Xperia"; title=""; date=""; rating=""; break;
+	case 214:  reviewText="Please Sony, I've got trouble with videos not sorting into files. When I go into file commander there I see all the files with videos sorted to categories, but when I go into video app there it is under file camera (fotoapart in Czech) eventho I downloaded some of them from the Internet. Please help me with this, it's annoying. Thank you."; appVersion=""; user="denisdenyjamny"; title=""; date=""; rating=""; break;
+	case 215:  reviewText="Need it built-in brightness Control Option"; appVersion=""; user="Haris Xperia"; title=""; date=""; rating=""; break;
+	case 216:  reviewText="How about a lock button like on the vlc video player."; appVersion=""; user="raffy manalaysay"; title=""; date=""; rating=""; break;
+	case 217:  reviewText="Add a share option from the pop up menu in main screen, it saves up time and there is no need to open the video."; appVersion=""; user="Nestor Rolon"; title=""; date=""; rating=""; break;
+	case 218:  reviewText="It will be good if it can change the video thumbnail"; appVersion=""; user="Raiza Rahman"; title=""; date=""; rating=""; break;
+	case 219:  reviewText="Suggest: add touch block feature"; appVersion=""; user="Rudy Tantono"; title=""; date=""; rating=""; break;
+	case 220:  reviewText="Ability to set the brightness while watching video from the player buttons panel."; appVersion=""; user="Fadi Obaya"; title=""; date=""; rating=""; break;
+	case 221:  reviewText="Anyone?"; appVersion=""; user="Carlee Garcia"; title=""; date=""; rating=""; break;
+	case 222:  reviewText="Thanks for rotation option within the app. Now 1. Please support mkv format which is one of the most popular video formats.2. And if possible gesture controls for FF and rewind, voice and brightness. Then this would be the best video app. Thank you very much."; appVersion=""; user="Dan J"; title=""; date=""; rating=""; break;
+	case 223:  reviewText="White landing page could be great to have to cope with the light theme."; appVersion=""; user="Fadi Obaya"; title=""; date=""; rating=""; break;
+	case 224:  reviewText="Can you please make the Upper Left make function as back instead of opening Drawer when Im on The Folder"; appVersion=""; user="Carlee Garcia"; title=""; date=""; rating=""; break;
+	case 225:  reviewText="Have the movies its own place Because it's like chaos"; appVersion=""; user="Abdwise Kymos"; title=""; date=""; rating=""; break;
+	case 226:  reviewText="Add the blue logo next to Settings like on the Music & Album app."; appVersion=""; user="Johnny Pryce"; title=""; date=""; rating=""; break;
+	case 227:  reviewText="Just suggestion...Hope if we next/previous we can still resume videos(?)See Screen Record..."; appVersion=""; user="Rudy Tantono"; title=""; date=""; rating=""; break;
+	case 228:  reviewText="The new update is nice. but i cant see any of my downloaded offline playstaion videos. it use to show all the downloaded movies from playstaion video on the my libruary section. please can we have that features please.thanks"; appVersion=""; user="Rimaz Flyil (Joker)"; title=""; date=""; rating=""; break;
+	case 229:  reviewText="Hi guys I am having problem with subtitles. Video app doesn't add subtitle into video playback which i separately downloaded. So I think this is a problem which should be cleared, so update it...!"; appVersion=""; user="Chaithanya G"; title=""; date=""; rating=""; break;
+	case 230:  reviewText="quisiera que volvieran a incluir la presentacin al inicio que tena la aplicacin pelculas al iniciar la aplicacin reproduca los videos recientes y le daba un toque y elegancia nico aparte sera una aplicacin insuperable si se pudiera tomas captura de los videos para convertirlos en imgenes sin perder resolucin y por ltimo que se pueda minimizar el reproductor pero en cualquier pantalla mientras se reproduce como el de Samsung pero mejor confo en sony y se que trabajan mucho mejor que otras compaas"; appVersion=""; user="Alex Franco"; title=""; date=""; rating=""; break;
+	case 231:  reviewText="Bens"; appVersion=""; user="Yunus M Khala"; title=""; date=""; rating=""; break;
+	case 232:  reviewText="The following issue is currently under discussion on sony walkman and album beta pages and belongs to video, too: user interface. 1. Will it be possible to switch between light and dark theme? 2. The standard material design is beautiful, but it doesn't completely suit xperia phones. The  What's new   team had the best ideas to find a solution between material design and xperia mobiles with glass front/back, I think: transparent material design. Please think about redesigning the media apps. I bought a flagship device with premium design, so I expect a premium ui, too. And an option for the user to choose only a few options like transparent or not and light or dark would make nearly everyone happy"; appVersion=""; user="David Mosbach"; title=""; date=""; rating=""; break;
+	case 233:  reviewText="I use the TV Side View app a lot for my Bravia, this feature is not in the BETA video 9.4. Would it be making a come back?I liked how apps were linked together, like PS Video, My Videos and TV Side View. It meant that you could open one app, mainly for video entertainment and be able to access all things related without to much hassle. I stream from my NAS be it on to phone, but can in the same app quickly minimise the screen and jump into Side View to control the TV if needs be! The linking of apps is something that I think is a really great feature for ease of use, rather than having to close and navigate to to another app. Basically jumping back and forth. For this reason I have reverted back to the standard Video app. But hopefully these features will make a return in the BETA 9.4, and I will join the program again."; appVersion=""; user="Ty Rimmell"; title=""; date=""; rating=""; break;
+	case 234:  reviewText="Coool"; appVersion=""; user="BaD BoYe DjSaYAN"; title=""; date=""; rating=""; break;
+	case 235:  reviewText="Selamat sore semuanya....?"; appVersion=""; user="Anta Ka"; title=""; date=""; rating=""; break;
+	case 236:  reviewText="What about supporting subtles ?"; appVersion=""; user="Shehab Skull"; title=""; date=""; rating=""; break;
+	case 237:  reviewText="People also like moves trailers are playing in movie gallery."; appVersion=""; user="moe thettin"; title=""; date=""; rating=""; break;
+	case 238:  reviewText="Quiero probar esa app para ver que tal funciona y sus apariencia"; appVersion=""; user="Marco Antonio Clemente Marquez"; title=""; date=""; rating=""; break;
+	case 239:  reviewText="Sera bueno que cuando acabe un video se reproduzca automticamente el siguiente, adems con lo que respecta al momento de abrir el video tambin estara bien si este directamente se reproduzca en la pantalla completa sin necesidad de que tenga que estar activado el giro de pantalla automtica"; appVersion=""; user="Jonathan Mikael Salinas Reyes"; title=""; date=""; rating=""; break;
+	case 240:  reviewText="You should provide child lock facility while playing video or movies"; appVersion=""; user="Kaushik Sharma"; title=""; date=""; rating=""; break;
+	case 241:  reviewText="- Please make it show embedded subtitles and more subtitle formats.- Touch controls like forward, backward, volume and brightness control. - And rotation option within the app.- Also want more view options. Not just tab view. Thanks."; appVersion=""; user="Dan J"; title=""; date=""; rating=""; break;
+	case 242:  reviewText="Maybe a  fix  (not sure if it's the right word) the downloading of movie information using Grace Note as its database isn't updated. The movie Cinderella (2015) isn't invluded on its database.Or is this a different concern? Grace Note's?"; appVersion=""; user="Raymond De Guzman"; title=""; date=""; rating=""; break;
+	case 243:  reviewText="Blur bg, like  what's new  concept"; appVersion=""; user="Rudy Tantono"; title=""; date=""; rating=""; break;
+	case 244:  reviewText="hi"; appVersion=""; user="ratul talukdar"; title=""; date=""; rating=""; break;
+	case 245:  reviewText="Raadiosaatja"; appVersion=""; user="Oliver DaRealo"; title=""; date=""; rating=""; break;
+	case 246:  reviewText="Not too bad organization wise. It gets a little confusing when it goes to different video appstore/ different  services  goes between my videos to ps videos and it can get confusing. If it's at all possible to set up a tutorial for first time users, that might help some newbies to understand the system a bit better. Other then that, works pretty smoothly"; appVersion=""; user="Vittoria Gibson"; title=""; date=""; rating=""; break;
+	case 247:  reviewText="It would be better if u introduce auto rotate switch with app....and also volume controls - Coming to my stream.. Intoduce a search option or even a filter option based on genre"; appVersion=""; user="Rajesh Bethu"; title=""; date=""; rating=""; break;
+	case 248:  reviewText="A window for the Video Settings like Audio SettingsWith brightness bar and switch for X-Reality/Mobile BRAVIA EngineAnd... maybe White balance..."; appVersion=""; user="Emmanuel Santos"; title=""; date=""; rating=""; break;
+	case 249:  reviewText="I am impressed with new ui but I facing problem streaming. I have 3g networks with 2mbps speed but I take lots of time."; appVersion=""; user="jai prakash"; title=""; date=""; rating=""; break;
+	case 250:  reviewText="I'm hoping for a unified UI across all the Sony media apps. ( What's New, Music, Album, Video and so on..)"; appVersion=""; user="Fadi Obaya"; title=""; date=""; rating=""; break;
+	case 251:  reviewText="Wow guys did a great job. I'm loving it alot. Still need to say something. Couldn't stream hd quality videos though I'm using a 4mbps connection. Really a supercool update. And my fav is the resizing of video previews. It's just like album. Super smooth. But seems like it's bit laggy. Guys thanks for the update."; appVersion=""; user="Shri Arun"; title=""; date=""; rating=""; break;
+	case 252:  reviewText="You should add the ability to play any subtitles file"; appVersion=""; user=""; title=""; date=""; rating=""; break;
+	case 253:  reviewText=""; appVersion=""; user="henry raul esteba chambilla"; title=""; date=""; rating=""; break;
+	case 254:  reviewText="Super Sony"; appVersion=""; user="carlos neyra"; title=""; date=""; rating=""; break;
+	case 255:  reviewText="Por favor agregar codec para que reproduzca videos mkv de nada sirve que sea tan bonito minimalista fluido etc etc si no puede reproducir en todos los formatos"; appVersion=""; user="uziel david"; title=""; date=""; rating=""; break;
+	case 256:  reviewText="Auto rotate button on player..."; appVersion=""; user="ahmed ashjau"; title=""; date=""; rating=""; break;
+	case 257:  reviewText="Another feature should be Lock Button to prevent accidental touches and clicks which will surely help. Hope to see dis feature."; appVersion=""; user="Himalaya Dave"; title=""; date=""; rating=""; break;
+	case 258:  reviewText="Hi, please add the option to hide videos"; appVersion=""; user="Santiago Ospina"; title=""; date=""; rating=""; break;
+	case 259:  reviewText="To be honest Videos app is the most underwhelming app in the 3 Sony media apps so here're some suggestions:- Please give the option to show all videos in home screen like back in movies app not just recently added. Maybe different kind of sorting for videos in homescreen is good too (by name, by date, by tag, etc.)- 3-dot menu on homescreen that contain setting and help should be move to side-swipe menu.- There should be vollume slider or brightness slider within the video playing screenAnyway, keep up your good work."; appVersion=""; user="Nguyn Sony"; title=""; date=""; rating=""; break;
+	case 260:  reviewText="Hello dev, can u add abilty to mark video? Long tap video we can mark video just like albumDont have ability to mark, so difficult when i want deleted videos"; appVersion=""; user="Rudy Tantono"; title=""; date=""; rating=""; break;
+	case 261:  reviewText="If possible please get us back the show last video on Video Home page option!!!! Which shows the last played video playing silently..."; appVersion=""; user="Falesh Chaudhary"; title=""; date=""; rating=""; break;
+	case 262:  reviewText="Please add swipe to forward and backward feature to the app....it will be easy to use..."; appVersion=""; user="Prasad Daki"; title=""; date=""; rating=""; break;
+	case 263:  reviewText="Hi can you add the feature whereby you can rotate video to landscape in full screen when auto rotate is disabled on phone. Almost like an app override"; appVersion=""; user="Charleston Minnaar"; title=""; date=""; rating=""; break;
+	case 264:  reviewText="Can you add video streaming, that we could enter video net address and watch video online?"; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 265:  reviewText="Transparent drawer finaly :)"; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 266:  reviewText="Subtitles aren't working when I'm playing anything from DLNA (upnp). It would be great if you added this feature."; appVersion=""; user="Erik Cupal"; title=""; date=""; rating=""; break;
+	case 267:  reviewText="Settings page is very empty.. Why any optional settings isnt there?Add some options for enable/disable..and after that we can have customizable video.Add something like these:1. Clear thumbnails cache2. Sort and view options3. Maximum brightness when view vids4. Security: for password in hidden files5. Screen orientation ( vertical ,horizontal, video app separately rotation,..)6. Resume on/off7. Change Volume with gesture up/downEtc"; appVersion=""; user="Saeed Haji Ghasemi"; title=""; date=""; rating=""; break;
+	case 268:  reviewText="VIDEO INFO"; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 269:  reviewText="Theme of Video app could be little bit brighter, not so dark. In lighter conditions the visibility/contrast is not so good."; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 270:  reviewText="CURRENT TIME while movie preview"; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 271:  reviewText="SUBTITLES    Can you add more size for subtitles? Those 3 are not enough. Or instead of current size font you could add slider for selecting size of subtitles."; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 272:  reviewText="Please...... Add this button."; appVersion=""; user="Umesh soni"; title=""; date=""; rating=""; break;
+	case 273:  reviewText="It would be great this option, why hide a video in the app (Album) he still appears in the application (Video)."; appVersion=""; user="Guilherme G. Almeida"; title=""; date=""; rating=""; break;
+	case 274:  reviewText="Add aspect ratio options for play back and please cover all damn video formats."; appVersion=""; user="Rajan Raj"; title=""; date=""; rating=""; break;
+	case 275:  reviewText="I would kindly suggest.. U bring back the play back at the top of the app.. Showing a preview.. It used to look cool.. Now at the top no it only displays previous played videos.. Shuffling as if it's an album.. Quite disappointed"; appVersion=""; user="Ismail Mabruk"; title=""; date=""; rating=""; break;
+	case 276:  reviewText="I hope that, like in Album app, the hide option will be made available one day.And also, please bring back the preview of the latest played video on the header of the main screen just like before."; appVersion=""; user="Raymond De Guzman"; title=""; date=""; rating=""; break;
+	case 277:  reviewText="Please add shuffle on next release. I know you can do it team. Thanks."; appVersion=""; user="Richard F."; title=""; date=""; rating=""; break;
+	case 278:  reviewText="Do you intend to add gesture controls for brightness/sound/fast-forward/backward?The app is pretty far behind the competition becase of that."; appVersion=""; user="Josip Bartulovic"; title=""; date=""; rating=""; break;
+	case 279:  reviewText="Please added scene capture button"; appVersion=""; user="Haris Xperia"; title=""; date=""; rating=""; break;
+	case 280:  reviewText="please add swipe to forward and black theme switch option"; appVersion=""; user="Zuhaib Adil"; title=""; date=""; rating=""; break;
+	case 281:  reviewText="Why does the My Stream section doesn't give us option to set the video quality? It shows videos in poor quality...please fix..."; appVersion=""; user="Prasad Daki"; title=""; date=""; rating=""; break;
+	case 282:  reviewText="Gestures to forward or backward while watching a video. Gesture swipe up or down for volume."; appVersion=""; user="Fadi Obaya"; title=""; date=""; rating=""; break;
+	case 283:  reviewText="Please add ability to show subtitle bundled in video ..With that i'll never use mx player again"; appVersion=""; user="Hoeda Utjhiha"; title=""; date=""; rating=""; break;
+	case 284:  reviewText="Is it possible to have the Video notification stay there even I pause the video? What's the sense of video playback when in background if it removes the notification if I pause it"; appVersion=""; user="Jayson Alay"; title=""; date=""; rating=""; break;
+	case 285:  reviewText="Please give us an option to choose between the black/white themes. Updates are welcome, but forced white theme isn't."; appVersion=""; user="Jonathan Bratanata"; title=""; date=""; rating=""; break;
+	case 286:  reviewText="Movies app was my favorite back in the days. Now it turn into video. Yeah but things and performance didn't change. It hangs while playing 4k.video on my z3. Also for movies when I skip some part it gets hanged. And it should have a side brightness settings cause sometimes it's annoying to go again on settings and bright up"; appVersion=""; user="Shuvro Mojumder (Nero White)"; title=""; date=""; rating=""; break;
+	case 287:  reviewText="Make the video history playback tooThank you"; appVersion=""; user="Abdwise Kymos"; title=""; date=""; rating=""; break;
+	case 288:  reviewText="Can u support SSA too?"; appVersion=""; user="Rudy Tantono"; title=""; date=""; rating=""; break;
+	case 289:  reviewText="Please, add this button to open the camera application in the next update."; appVersion=""; user="Guilherme G. Almeida"; title=""; date=""; rating=""; break;
+	case 290:  reviewText="New video player (9.4.A.0.10) is not smoothly perform."; appVersion=""; user="Umesh soni"; title=""; date=""; rating=""; break;
+	case 291:  reviewText="Why is it that the album app has has the video previews play live but on the video app, the one that is supposed to be all about videos, only has the video thumbnail shown as a preview? Could you change it back to how it originally was in the older versions. Thanks"; appVersion=""; user="Michael Davids"; title=""; date=""; rating=""; break;
+	case 292:  reviewText="I would like to return to include the presentation at the beginning I had the film application when the application starts reproducing the latest videos and gave it a unique touch and unsurpassed elegance apart would apply if the video capture shots could be to turn them into images without losing resolution and finally you can minimize the player but on any screen while playing as Samsung but better trust sony and working much better than other companies"; appVersion=""; user="Alex Franco"; title=""; date=""; rating=""; break;
+	case 293:  reviewText="The drawer should be blurred like in the what's new app"; appVersion=""; user="Jonas Gyr"; title=""; date=""; rating=""; break;
+	case 294:  reviewText="Any plans to add AC3 , DTS and DivX decoders? That would make it the best player around..."; appVersion=""; user="Prasad Daki"; title=""; date=""; rating=""; break;
+	case 295:  reviewText="Which can be better theme for the application- Transparent (Like what's new app) or solid themes (black/white) ?"; appVersion=""; user="Prasad Daki"; title=""; date=""; rating=""; break;
+	case 296:  reviewText="I have one new suggestion:- Can album make a sections where we can separated some kind of video to others like some categories like: Movies, Music Videos, Funny Videos or Custom or something (you know like 9gagTV). I mean, sure we can create folders like that ourselves but Video can also create sections for it so that other media apps can take advantage and redirect to Video more easily (like Music redirect to Music Video, for example)PS: Setting and Help should have icon like in new Album apps."; appVersion=""; user="Nguyn Sony"; title=""; date=""; rating=""; break;
+	case 297:  reviewText="Hello"; appVersion=""; user="Agar Gvinjo"; title=""; date=""; rating=""; break;
+	case 298:  reviewText="Hello everyone in the beginning of the Sony movie app you had a different layout with movies and series tab and the media information [like the app Archos video app] please bring it back. And also the different video files"; appVersion=""; user="michael de geest"; title=""; date=""; rating=""; break;
+	case 299:  reviewText="It should support all file"; appVersion=""; user="Vipin Nair"; title=""; date=""; rating=""; break;
+	case 300:  reviewText="This has probably been mentioned before but why don't you add a similar feature that twitch has where you can continue watching a video while doing something else by using a resizable window."; appVersion=""; user="Michael Davids"; title=""; date=""; rating=""; break;
+	case 301:  reviewText="Please add subtitles features when playing with home network, example if we save movies and subtitles on same folder on pc, we can streaming movies on device with subtitles"; appVersion=""; user="Angga Priandika"; title=""; date=""; rating=""; break;
+	case 302:  reviewText="I think you should give a little change to the design of buttons when the video is playing."; appVersion=""; user="Karina Gordy"; title=""; date=""; rating=""; break;
+	case 303:  reviewText="Hello friends ... I want to play many more formats especially MKV and more ... PLEASE :-)"; appVersion=""; user="Kabus Faton"; title=""; date=""; rating=""; break;
+	case 304:  reviewText="Brasil: A Sony era pra colocar o Movie desse jeito a interface do aplicativo. Pessoal quem concorda comigo compartilhe muito at chegar ao desenvolvedor.The video application was supposed to be like this the Plex Android interface.Sony a big company with good product more does not make such a application with a better interface."; appVersion=""; user="Alisson Santos"; title=""; date=""; rating=""; break;
+	case 305:  reviewText="Add movies,videos downloaded from previlageplus and YouTube directly to the video so that it becomes easier to use"; appVersion=""; user="vishwa teja"; title=""; date=""; rating=""; break;
+	case 306:  reviewText="Add more cloud space,like Dropbox,onedrive,Google drive, box"; appVersion=""; user=""; title=""; date=""; rating=""; break;
+	case 307:  reviewText="Add auto rotate button in the player.."; appVersion=""; user="ahmed ashjau"; title=""; date=""; rating=""; break;
+	case 308:  reviewText=""; appVersion=""; user="ahmed ahmed"; title=""; date=""; rating=""; break;
+	case 309:  reviewText="Kindly update on video screen volume & brightness adjustment"; appVersion=""; user="gosai jatin"; title=""; date=""; rating=""; break;
+	case 310:  reviewText="I updated to today for beta version but i didnt got a features what you said even i didnt get screen rotion toggle on the app i am on lollipop"; appVersion=""; user="Alapati anniesh"; title=""; date=""; rating=""; break;
+	case 311:  reviewText="You should add a scrolling affect on the home screen thumbnails."; appVersion=""; user="Michael Davids"; title=""; date=""; rating=""; break;
+	case 312:  reviewText="Some suggestions based on latest Beta Build-Bring back the Dark theme for the navigation menu. I usually use this app at night and having this bright white background is annoying. One suggestion is introduce an option to switch between dark and light themes.-Add an option to filter which folders to be displayed in the main page. Or introduce an option to mark some videos as hidden (similar to Album app)-Add an option to filter which services to be displayed under My Stream Tab. for instance I don't have Crackle app installed on my phone and don't plan to, so why is it displayed under My Stream and under the Menu Drawer? Adding the option to choose which video stream to be displayed under that tab would be appreciated.That's it for now, thank you for the hard work!"; appVersion=""; user="Khaled Badwan"; title=""; date=""; rating=""; break;
+	case 313:  reviewText="Awesome video player.."; appVersion=""; user="Ashis Nath"; title=""; date=""; rating=""; break;
+	case 314:  reviewText="Please add screen rotation lock to Video Player."; appVersion=""; user="Abimanyu Gottumukkala"; title=""; date=""; rating=""; break;
+	case 315:  reviewText="Fix the zoom videos and add a small screen adjustment like Samsung like when you have a video and don't won't to close the video but you wona do other apps but you can't because you didn't added a small screen like Samsung i sony i wona best for sony"; appVersion=""; user="Shko f.lhv"; title=""; date=""; rating=""; break;
+	case 316:  reviewText="Me gusta la aplicacin con un buen diseo de echo tengo en mi Xperia Z 2 lo malo es que no viene con cambio de idiomas de audio espero ya lo pongan para la prxima actualizacin"; appVersion=""; user="henry raul esteba chambilla"; title=""; date=""; rating=""; break;
+	case 317:  reviewText="I think that the main home screen that you boot up the app in should be customisable. You should be able to choose videos or folders that are displayed. Maybe a most played option."; appVersion=""; user="Oliver Wheatley"; title=""; date=""; rating=""; break;
+	case 318:  reviewText="Please support hevc codec. I can't watch videos using hevc codec."; appVersion=""; user="Satoshi Kan"; title=""; date=""; rating=""; break;
+	case 319:  reviewText="My last suggestion."; appVersion=""; user="Himalaya Dave"; title=""; date=""; rating=""; break;
+	case 320:  reviewText="So here it goes the recent Vlc media has many exciting features and hope to get it on video. One of them is swipe up and down gesture. Swiping left(up and down)will control brightness. Swiping right(up and down)will control volume. These are the most helpful gestures. Plz have a look video team."; appVersion=""; user="Himalaya Dave"; title=""; date=""; rating=""; break;
+	case 321:  reviewText="Instand of the boring black drawer it would be great if it would be blurred like in the what's new app"; appVersion=""; user="Jonas Gyr"; title=""; date=""; rating=""; break;
+	case 322:  reviewText="I have just join this group so I don't know what I'm going to suggest now are said before. ThanksFirst, the home for movie shows only a few from recently added. It only shows 7 videos on mine. Can it show more? AND can it add  ALL VIDEOS  below the recently added. Since I can't view and manage all the videos at once. THIS IS WHAT A MOVIE APP SHOULD BE RIGHT? View all videos at oncejust like the video option in sony album. Just add  all videos  under the recent added."; appVersion=""; user="Tan Keeyong"; title=""; date=""; rating=""; break;
+	case 323:  reviewText="Hi this is my suggestions:1) ability to add your own notes on top of/instead of the video informationJustification: a) I frequently uses the app for music listening, by playing Music Videos of artists. It will be great if I can add notes (so I can add lyrics for easier reference)b) I can customize the video information by adding personal information about the video(eg when and where the video is shot, or even write a Journal like para to be able to look back in the future)2) Able to shuffle play the videosJustification:As mentioned above, I uses the app for music listening, so it will be very helpful to be able to do so3) Able to choose the cover image of the video(eg by which sec of the video)Justification:Some of my videos cover image isn't just what I wanted4) Able to customize the order of folders instead of according to alphabetical orderI really hope that my suggestions can be taken into consideration, however I do acknowledge the fact that the above suggestions is for my own preference, and not the majority. Cheers!"; appVersion=""; user="Augustine Kau"; title=""; date=""; rating=""; break;
+	case 324:  reviewText="Video app should have screen resizing options like 16:9 or 16:10 or 4:3..."; appVersion=""; user="Prasad Daki"; title=""; date=""; rating=""; break;
+	case 325:  reviewText="Please add AC3 support to Video app...it would be great..."; appVersion=""; user="Prasad Daki"; title=""; date=""; rating=""; break;
+	case 326:  reviewText="I think all devs at video beta,album beta and walkman beta are kinda too busy!!!!!"; appVersion=""; user="Falesh Chaudhary"; title=""; date=""; rating=""; break;
+	case 327:  reviewText="Preview Video at top instead of those people's face staring each other from previous versions why was it removed..?? It could be re introduced it was making the video unique..."; appVersion=""; user="Falesh Chaudhary"; title=""; date=""; rating=""; break;
+	case 328:  reviewText="Can you make notification bar and software keys bar transparent? Not black as it is now which covers a parts of playing video..."; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 329:  reviewText="AC3 codec"; appVersion=""; user=""; title=""; date=""; rating=""; break;
+	case 330:  reviewText="BACKGROUND PLAYING    In case while background playing is turn on that small window (marked with yellow) could be shown as separate window in foreground in android (with possibility to close this window). Something like calculator."; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 331:  reviewText="Add manual rotation..this is very usefull. Because we can rotate videos with auto rotation off..Plz plz pz"; appVersion=""; user="Saeed Haji Ghasemi"; title=""; date=""; rating=""; break;
+	case 332:  reviewText="SUBTITLES PREVIEW"; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 333:  reviewText="STARTING SCREEN & HIDE VIDEO    Can you add possibility to choose wether after start will show last added videos or folder screen? also possibility to hide some videos would be fine (like in album app). that would be make sence - because if i hide some video in album app (dont wanna to anybody see it) but in video app it is still shown."; appVersion=""; user="Martin Mrmus"; title=""; date=""; rating=""; break;
+	case 334:  reviewText="Hi Sony Video Beta Team  Today I'm thinking about Video Beta Application One More Suggestions for you, Including Hide Video Options Just Like Sony Album Apps"; appVersion=""; user="Haris Xperia"; title=""; date="2015-11-13"; rating=""; break;
+	case 335:  reviewText="Need manual codec available. Cause it don't support ac3 audio. none of my that HD sound quality movie have sound on video"; appVersion=""; user="Shuvro Mojumder (Nero White)"; title=""; date="2015-11-10"; rating=""; break;
+	case 336:  reviewText="Just wondering, are you going to make it available for the Sony marshmallow concept?"; appVersion=""; user=""; title=""; date="2015-11-09"; rating=""; break;
+	case 337:  reviewText="It would be better if you have changed the layout of the main screen to cards with the purpose of (Materia Design) as the other applications of Sony (What's New and Music)."; appVersion=""; user="Guilherme G. Almeida"; title=""; date="2015-11-07"; rating=""; break;
+	case 338:  reviewText="Please...... Add this button."; appVersion=""; user="Umesh soni"; title=""; date="2015-11-07"; rating=""; break;
+	case 339:  reviewText="I have Xperia Z3+. I cannot download the PlayStation video app, or access ps video within the video app. This means that I cannot access movies that I own which were downloaded previously. Please fix. Thanks"; appVersion=""; user="Greg Keyes"; title=""; date="2015-11-05"; rating=""; break;
+	case 340:  reviewText="Pls add option to choose theme . Light and dark theme"; appVersion=""; user="Mohd Hilman"; title=""; date="2015-11-04"; rating=""; break;
+	case 341:  reviewText="There is some problem with my video player.. I played a movie in landscape mode and after pausing it and going to another application the movie didn't resumed correctly it shows black screen but with audio!"; appVersion=""; user="Ayush Lohia"; title=""; date="2015-11-04"; rating=""; break;
+	case 342:  reviewText="Why can't I play my videos?"; appVersion=""; user="NA"; title=""; date="2015-11-14"; rating=""; break;
+	default : reviewText=""; appVersion=""; user=""; title=""; date=""; ratbreak;
+}
+testo.document.write("<body topmargin=10>\n");
+testo.document.write("<div align=left><p><b>App Version</b></br>\n");
+testo.document.write(appVersion+" </p></div>\n");
+testo.document.write("<div align=left><p><b>User</b></br>\n");
+testo.document.write(user+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Date</b></br>\n");
+testo.document.write(date+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Star rating</b></br>\n");
+testo.document.write(rating+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Review Title</b></br>\n");
+testo.document.write(title+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Review Text</b></br>\n");
+testo.document.write(reviewText+" </p></div>\n");
+testo.document.write("</body>\n");
+testo.document.write("</html>");
+}
+</script>
+</head>
+<body>
+<div>
+<h2>GUI</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(50);"> When I download video via browser (using opera) it doesn't show up in video app in recently (new) added files</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(315);"> Fix the zoom videos and add a small screen adjustment like Samsung like when you have a video and don't won't to close the video but you wona do other apps but you can't because you didn't added a small screen like Samsung i sony i wona best for sony</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(341);"> I played a movie in landscape mode and after pausing it and going to another application the movie didn't resumed correctly it shows black screen but with audio</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(232);"> The following issue is currently under discussion on sony walkman and album beta pages and belongs to video, too: user interface</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(281);"> It shows videos in poor quality...please fix</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(228);"> but i cant see any of my downloaded offline playstaion videos</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(322);"> Since I can't view and manage all the videos at once</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(103);"> When using mirror to stream onto my TV I could hear sound but the picture was very slow</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(20);"> In built gesture control for brightness, volume, fast forward and rewind2.Support for AC3, DivX and Xvid decoders3.Fix for  Cannot play video  in My Stream section4.Add a lock screen feature5.A screen capture feature6.Manual orientation option7.White landing page8.4k videos cannot be played in latest update; please fix9.Not smooth when swiping forwards and backwards; fix needed10.On screen option to set the screen size; 16:9 or 4:3.11</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(333);"> STARTING SCREEN & HIDE VIDEO    Can you add possibility to choose wether after start will show last added videos or folder screen</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(330);"> BACKGROUND PLAYING    In case while background playing is turn on that small window (marked with yellow) could be shown as separate window in foreground in android (with possibility to close this window)</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(91);"> I think this is the Video app not Album so everything should be animated from video thumbnails to header bar to video name (those that are too long)3- Side menu could have semi-transparant background like What's new but it's not mandatory, I just want a more consistent UI across apps</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(233);"> I stream from my NAS be it on to phone, but can in the same app quickly minimise the screen and jump into Side View to control the TV if needs be</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(223);"> White landing page could be great to have to cope with the light theme</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(258);"> Hi, please add the option to hide videos</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(283);"> Please add ability to show subtitle bundled in video </a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(333);"> also possibility to hide some videos would be fine (like in album app)</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(317);"> You should be able to choose videos or folders that are displayed</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(285);"> Please give us an option to choose between the black/white themes</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(247);"> It would be better if u introduce auto rotate switch with app....and also volume controls - Coming to my stream</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(317);"> I think that the main home screen that you boot up the app in should be customisable</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(302);"> I think you should give a little change to the design of buttons when the video is playing</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(88);"> Hi,The icon is nice, But can Sony add big shadow for the video logo inside the circle </a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(91);"> Good job :)I only have a couple of suggestions now:1- Home screen should have white background to make UI more consistent2- Why isn't the header which show recent video not animated like before</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(312);"> for instance I don't have Crackle app installed on my phone and don't plan to, so why is it displayed under My Stream and under the Menu Drawer</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(327);"> Preview Video at top instead of those people's face staring each other from previous versions why was it removed</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(312);"> One suggestion is introduce an option to switch between dark and light themes.-Add an option to filter which folders to be displayed in the main page</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(259);"> To be honest Videos app is the most underwhelming app in the 3 Sony media apps so here're some suggestions:- Please give the option to show all videos in home screen like back in movies app not just recently added</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(44);"> It only disappers when navigating to other menus or exiting the app-PlayStation Video Thumbnails takes some time to populate under My Streams Tab</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(267);"> Screen orientation ( vertical ,horizontal, video app separately rotation,</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(312);"> Some suggestions based on latest Beta Build-Bring back the Dark theme for the navigation menu</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(36);"> While taking screen shot the buttons disappear(pic 2)</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(44);"> Crackle (awful video service) however shows up immediately under My Stream Tab-There is a lag in the video playback while seeking a point in the video</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(257);"> Another feature should be Lock Button to prevent accidental touches and clicks which will surely help</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(314);"> Please add screen rotation lock to Video Player</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(333);"> that would be make sence - because if i hide some video in album app (dont wanna to anybody see it) but in video app it is still shown</a></br>
+
+</div>
+
+<div>
+<h2>APP</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(341);"> I played a movie in landscape mode and after pausing it and going to another application the movie didn't resumed correctly it shows black screen but with audio</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(50);"> When I download video via browser (using opera) it doesn't show up in video app in recently (new) added files</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(27);"> I guess the Video App has a performance issue</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(269);"> Theme of Video app could be little bit brighter, not so dark</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(30);"> Hi Dev team, I have found AVI cannot be played with Video app</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(324);"> Video app should have screen resizing options like 16:9 or 16:10 or 4:3</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(321);"> Instand of the boring black drawer it would be great if it would be blurred like in the what's new app</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(317);"> I think that the main home screen that you boot up the app in should be customisable</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(291);"> Why is it that the album app has has the video previews play live but on the video app, the one that is supposed to be all about videos, only has the video thumbnail shown as a preview</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(144);"> #2: why is video app pushed by google play and what's new too</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(111);"> Why isn't this app available for 4.2</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(84);"> How Can I Download This Beta Version Of App In Xiaomi RedMi2.Plz Help</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(114);"> Do you plan create copmlex app, someting like MX Player, or just this cut version with poor settings</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(2);"> How do I download this app Am I too late for the party</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(259);"> To be honest Videos app is the most underwhelming app in the 3 Sony media apps so here're some suggestions:- Please give the option to show all videos in home screen like back in movies app not just recently added</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(47);"> In MX Player everythig goes fine but in Video app subtitles are after video duration skipping frozen or not shown at all</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(233);"> The linking of apps is something that I think is a really great feature for ease of use, rather than having to close and navigate to to another app</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(189);"> The first beta release of Video app will be available on 11th May.Please join this community </a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(85);"> What's new, album and music app gets better and better while this app is stuck with bugs</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(246);"> It gets a little confusing when it goes to different video appstore/ different  services  goes between my videos to ps videos and it can get confusing</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(298);"> Hello everyone in the beginning of the Sony movie app you had a different layout with movies and series tab and the media information [like the app Archos video app] please bring it back</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(267);"> Screen orientation ( vertical ,horizontal, video app separately rotation,</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(333);"> that would be make sence - because if i hide some video in album app (dont wanna to anybody see it) but in video app it is still shown</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(251);"> I'm loving it alot</a></br>
+
+</div>
+
+<div>
+<h2>COMPANY</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(30);"> Hi Dev team, I have found AVI cannot be played with Video app</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(320);"> Plz have a look video team</a></br>
+
+</div>
+
+<div>
+<h2>CONTENTS</h2></br>
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(294);"> Any plans to add AC3 , DTS and DivX decoders</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(114);"> Do you plan create copmlex app, someting like MX Player, or just this cut version with poor settings</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(233);"> But hopefully these features will make a return in the BETA 9.4, and I will join the program again</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(242);"> Maybe a  fix  (not sure if it's the right word) the downloading of movie information using Grace Note as its database isn't updated</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(286);"> Yeah but things and performance didn't change</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(25);"> You don't give tha Arabia same this program</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(237);"> People also like moves trailers are playing in movie gallery</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(91);"> Many things reported by user have been improved in right direction</a></br>
+
+</div>
+
+<div>
+<h2>DOWNLOAD</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(199);"> You cannot download and watch PS Video purchased contents.2</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(50);"> When I download video via browser (using opera) it doesn't show up in video app in recently (new) added files</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(228);"> but i cant see any of my downloaded offline playstaion videos</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(112);"> Anyone got a link for the newest beta?I can't download it from the playstore</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(84);"> How Can I Download This Beta Version Of App In Xiaomi RedMi2.Plz Help</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(2);"> How do I download this app Am I too late for the party</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(31);"> It's been saved into download folder (internal memory)</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(229);"> Video app doesn't add subtitle into video playback which i separately downloaded</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(34);"> Even if it's downloaded viseo, recorded video or whatever, still long time of its loading</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(305);"> Add movies,videos downloaded from previlageplus and YouTube directly to the video so that it becomes easier to use</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(242);"> Maybe a  fix  (not sure if it's the right word) the downloading of movie information using Grace Note as its database isn't updated</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(228);"> it use to show all the downloaded movies from playstaion video on the my libruary section</a></br>
+
+</div>
+
+<div>
+<h2>FEATURE/FUNCTIONALITY</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(45);"> I used to be able to play mp4 file with SRT subtitle file with no problem but now subtitle keeps disappear or doesn't show, even worse the film went dark screen and other video with no subtitle cannot be played (seems like SRT file in the same folder of the film with the same name effects the rest of the movies files and app)</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(315);"> Fix the zoom videos and add a small screen adjustment like Samsung like when you have a video and don't won't to close the video but you wona do other apps but you can't because you didn't added a small screen like Samsung i sony i wona best for sony</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(51);"> There Is Some File With MKV Formate Work And Some Not Working And Some Is Working But It;s Is Lagging And None Of Them Have The Subtitles Whthere It In The Video(File) Or In File .srt PLease Fix T_T</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(50);"> When I download video via browser (using opera) it doesn't show up in video app in recently (new) added files</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(281);"> It shows videos in poor quality...please fix</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(34);"> LONG LOADING TIME    can you please fix this issue</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(85);"> fix the subtitles and playback bugs already</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(48);"> as you can se in video, video app detects video which is unplayable (also I am not able to see info about it!)</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(50);"> INDEXING    I have issue with indexing files</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(45);"> Is it a bug?and why many updates since never seemed to fix this issue</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(3);"> Can't play video while im seeking Pls fix this bugCant play mkv 5.1 with audio</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(341);"> I played a movie in landscape mode and after pausing it and going to another application the movie didn't resumed correctly it shows black screen but with audio</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(232);"> The following issue is currently under discussion on sony walkman and album beta pages and belongs to video, too: user interface</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(39);"> Video skipping doesn't work anymore</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(21);"> Can't delete from history (that video I deleted on SD card but still it showing)</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(266);"> Subtitles aren't working when I'm playing anything from DLNA (upnp)</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(118);"> After the update i have this problem when i seek the video It can't play video then i can't play any video again</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(103);"> When using mirror to stream onto my TV I could hear sound but the picture was very slow</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(251);"> Couldn't stream hd quality videos though I'm using a 4mbps connection</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(146);"> I bought a movie on my ps4 but I'm unable to watch it on my z3v</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(318);"> I can't watch videos using hevc codec</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(341);"> There is some problem with my video player</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(229);"> Hi guys I am having problem with subtitles</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(27);"> I guess the Video App has a performance issue</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(28);"> Can't Access my ps Videos right now and last apk from ps video Can't be installed</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(228);"> but i cant see any of my downloaded offline playstaion videos</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(30);"> Hi Dev team, I have found AVI cannot be played with Video app</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(229);"> So I think this is a problem which should be cleared, so update it</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(333);"> STARTING SCREEN & HIDE VIDEO    Can you add possibility to choose wether after start will show last added videos or folder screen</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(20);"> In built gesture control for brightness, volume, fast forward and rewind2.Support for AC3, DivX and Xvid decoders3.Fix for  Cannot play video  in My Stream section4.Add a lock screen feature5.A screen capture feature6.Manual orientation option7.White landing page8.4k videos cannot be played in latest update; please fix9.Not smooth when swiping forwards and backwards; fix needed10.On screen option to set the screen size; 16:9 or 4:3.11</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(323);"> It will be great if I can add notes (so I can add lyrics for easier reference)b) I can customize the video information by adding personal information about the video(eg when and where the video is shot, or even write a Journal like para to be able to look back in the future)2) Able to shuffle play the videosJustification:As mentioned above, I uses the app for music listening, so it will be very helpful to be able to do so3) Able to choose the cover image of the video(eg by which sec of the video)Justification:Some of my videos cover image isn't just what I wanted4) Able to customize the order of folders instead of according to alphabetical orderI really hope that my suggestions can be taken into consideration, however I do acknowledge the fact that the above suggestions is for my own preference, and not the majority</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(120);"> Please add some controlling features from players like MX-Player</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(296);"> I mean, sure we can create folders like that ourselves but Video can also create sections for it so that other media apps can take advantage and redirect to Video more easily (like Music redirect to Music Video, for example)PS: Setting and Help should have icon like in new Album apps</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(283);"> Please add ability to show subtitle bundled in video </a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(267);"> Why any optional settings isnt there?Add some options for enable/disable..and after that we can have customizable video.Add something like these:1</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(252);"> You should add the ability to play any subtitles file</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(312);"> Adding the option to choose which video stream to be displayed under that tab would be appreciated.That's it for now, thank you for the hard work</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(300);"> This has probably been mentioned before but why don't you add a similar feature that twitch has where you can continue watching a video while doing something else by using a resizable window</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(328);"> Can you make notification bar and software keys bar transparent</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(325);"> Please add AC3 support to Video app...it would be great</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(143);"> and audio codecs should be able to be added</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(317);"> You should be able to choose videos or folders that are displayed</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(258);"> Hi, please add the option to hide videos</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(266);"> It would be great if you added this feature</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(264);"> Can you add video streaming, that we could enter video net address and watch video online</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(285);"> Please give us an option to choose between the black/white themes</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(259);"> - There should be vollume slider or brightness slider within the video playing screenAnyway, keep up your good work</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(247);"> It would be better if u introduce auto rotate switch with app....and also volume controls - Coming to my stream</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(271);"> Or instead of current size font you could add slider for selecting size of subtitles</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(263);"> Hi can you add the feature whereby you can rotate video to landscape in full screen when auto rotate is disabled on phone</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(143);"> formats such as AC3 should be supported</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(143);"> It should be improved subtitle support(</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(233);"> I stream from my NAS be it on to phone, but can in the same app quickly minimise the screen and jump into Side View to control the TV if needs be</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(251);"> Still need to say something</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(25);"> please we need it</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(260);"> Hello dev, can u add abilty to mark video</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(99);"> I think more formats should be added to new version</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(27);"> I need to constantly close then relaunch it to play movies</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(113);"> Why is there no support for the sony xperia e1 d2005</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(218);"> It will be good if it can change the video thumbnail</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(302);"> I think you should give a little change to the design of buttons when the video is playing</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(88);"> Hi,The icon is nice, But can Sony add big shadow for the video logo inside the circle </a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(321);"> Instand of the boring black drawer it would be great if it would be blurred like in the what's new app</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(91);"> Good job :)I only have a couple of suggestions now:1- Home screen should have white background to make UI more consistent2- Why isn't the header which show recent video not animated like before</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(114);"> Do you plan create copmlex app, someting like MX Player, or just this cut version with poor settings</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(91);"> Music start to use main purple color with green accent color in the UI which I think is nice so why don't Video and Album do the same</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(5);"> What s the use of the my stream part and where does the vido come from </a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(111);"> Why isn't this app available for 4.2</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(294);"> Any plans to add AC3 , DTS and DivX decoders</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(48);"> when its not supported it shouldnt be visible, should it</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(327);"> Preview Video at top instead of those people's face staring each other from previous versions why was it removed</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(7);"> Does that mean that my device is not supported anymore</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(40);"> Will it work with Android 5.1</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(291);"> Could you change it back to how it originally was in the older versions</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(199);"> Odekake playback in Japanese specific feature is not stable.If you are a heavy user of PS Video service and Odekake feature, please pay attention.When you want to use PS Video service and Odekake feature again, please uninstall Video9.3 beta once.Of course, you can try all features on Sony Xperia devices of Android version 5.0 and later.Please wait a little more until Video9.3 beta is ready</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(259);"> To be honest Videos app is the most underwhelming app in the 3 Sony media apps so here're some suggestions:- Please give the option to show all videos in home screen like back in movies app not just recently added</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(233);"> It meant that you could open one app, mainly for video entertainment and be able to access all things related without to much hassle</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(260);"> Long tap video we can mark video just like albumDont have ability to mark, so difficult when i want deleted videos</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(312);"> One suggestion is introduce an option to switch between dark and light themes.-Add an option to filter which folders to be displayed in the main page</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(105);"> Hello, I've followed every required step to becoming a better tester but it keeps telling me that the apps isn't available on Google play store</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(32);"> Pls fix your issues</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(233);"> But hopefully these features will make a return in the BETA 9.4, and I will join the program again</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(294);"> That would make it the best player around</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(31);"> (video is supported by video app - i tried to open video manualy from file manager, using to playing video app)</a></br>
+
+</div>
+
+<div>
+<h2>IMPROVEMENT</h2></br>
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(143);"> It should be improved subtitle support(</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(247);"> It would be better if u introduce auto rotate switch with app....and also volume controls - Coming to my stream</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(295);"> Which can be better theme for the application- Transparent (Like what's new app) or solid themes (black/white) </a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(85);"> What's new, album and music app gets better and better while this app is stuck with bugs</a></br>
+
+</div>
+
+<div>
+<h2>MODEL</h2></br>
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(7);"> Does that mean that my device is not supported anymore</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(40);"> Will it work with Android 5.1</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(199);"> We are going to start Video9.3 Beta testing from W26.Video9.3 beta is available for Sony Xperia devices of not only Android version 5.0 and later but also Android version 4.2, 4.3, 4.4</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(232);"> The standard material design is beautiful, but it doesn't completely suit xperia phones</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(87);"> Still average :/ Suitable for watching videos took by phone only (because of weak codecs)</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(232);"> I bought a flagship device with premium design, so I expect a premium ui, too</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(146);"> Video is activated on my phone</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(248);"> A window for the Video Settings like Audio SettingsWith brightness bar and switch for X-Reality/Mobile BRAVIA EngineAnd</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(97);"> [Just For Fun]LoL Description ever NOT COMPATIBLE WITH IOSI never seen Sony using an ios system</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(40);"> It made my phone get crazy and it is still this way</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(28);"> Am i wrong or is playstation video app missing on z3+ and tablet z4</a></br>
+
+</div>
+
+<div>
+<h2>UPDATE/VERSION</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(37);"> I cannot play 4k videos on tha latest update</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(229);"> So I think this is a problem which should be cleared, so update it</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(45);"> Is it a bug?and why many updates since never seemed to fix this issue</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(99);"> I think more formats should be added to new version</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(327);"> Preview Video at top instead of those people's face staring each other from previous versions why was it removed</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(84);"> How Can I Download This Beta Version Of App In Xiaomi RedMi2.Plz Help</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(114);"> Do you plan create copmlex app, someting like MX Player, or just this cut version with poor settings</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(291);"> Could you change it back to how it originally was in the older versions</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(199);"> We are going to start Video9.3 Beta testing from W26.Video9.3 beta is available for Sony Xperia devices of not only Android version 5.0 and later but also Android version 4.2, 4.3, 4.4</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(312);"> Some suggestions based on latest Beta Build-Bring back the Dark theme for the navigation menu</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(189);"> The first beta release of Video app will be available on 11th May.Please join this community </a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(34);"> I have latest version of video app and this is happening</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(7);"> But I see here that latest version is 9.x</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(251);"> Really a supercool update</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(310);"> I updated to today for beta version but i didnt got a features what you said even i didnt get screen rotion toggle on the app i am on lollipop</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(309);"> Kindly update on video screen volume & brightness adjustment</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(144);"> A.0.6 update (beta or non-beta?)</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(285);"> Updates are welcome, but forced white theme isn't</a></br>
+
+</div>
+
+</body>
+</html>

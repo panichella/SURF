@@ -1,0 +1,159 @@
+<html>
+<head>
+<h1>APP REVIEWS SUMMARY</h1>
+<script type="text/javascript">
+function messagePopup(message_id) {
+var stili = "top=10, left=10, width=400, height=250, location=no, directories=no, status=no, menubar=no, toolbar=no scrollbars=no";
+var testo = window.open("", "", stili);
+testo.document.write("<html>\n");
+testo.document.write(" <head>\n");
+testo.document.write("  <title>Review Details</title>\n");
+testo.document.write("  <basefont size=2 face=Tahoma>\n");
+testo.document.write(" </head>\n");
+switch(message_id){
+	case 0:  reviewText="This puzzle would be enjoyable if it was not so painfully slow."; appVersion="2.0.1"; user="Jmbrowne"; title="Painfully slow"; date="2014-12-04"; rating="1"; break;
+	case 1:  reviewText="Love it"; appVersion="1.50"; user="Theabcsofdeath"; title="Doodle pairs"; date="2014-08-10"; rating="5"; break;
+	case 2:  reviewText="Love this game, it's just hard enough to keep your mind working.  I have played this game everyday since I downloaded it."; appVersion="1.50"; user="Denimflower"; title="Awesome memory game!!!!"; date="2014-01-16"; rating="5"; break;
+	case 3:  reviewText="I love love love this game!! It keeps you on your toes and is never boring."; appVersion="1.50"; user="Pink and more pink"; title="Great Memory Game"; date="2013-03-19"; rating="5"; break;
+	case 4:  reviewText="Great fun for all ages!!"; appVersion="1.50"; user="55104K"; title="Great fun..."; date="2012-06-17"; rating="5"; break;
+	case 5:  reviewText="Fun"; appVersion="1.50"; user="Cristina Gonzalez-Gellineau"; title="Best matching game yet"; date="2012-02-01"; rating="5"; break;
+	case 6:  reviewText="Great game to sharpen any age level's memory skills."; appVersion="1.50"; user="Filigio"; title="Walkin'by"; date="2012-01-28"; rating="4"; break;
+	case 7:  reviewText="Used to be an excellent game, but ads ruin the free version ."; appVersion="1.50"; user="Teacher K-12 Gifted"; title="Distracting ads"; date="2012-01-17"; rating="1"; break;
+	case 8:  reviewText="It's a fun game to pass the time away and it also makes you think and remember things!!!"; appVersion="1.50"; user="Myladybug47"; title="Love it!!!"; date="2011-12-26"; rating="4"; break;
+	case 9:  reviewText="Fun game...addictive!"; appVersion="1.50"; user="FlapsMom"; title="Kathy"; date="2011-12-20"; rating="4"; break;
+	case 10:  reviewText="I love this game! I spend way too much time playing it!"; appVersion="1.50"; user="Puzllovr"; title="Love it!"; date="2011-10-28"; rating="5"; break;
+	case 11:  reviewText="This is one of my favorite games!"; appVersion="1.30"; user="spyderwebspinner"; title="Fun game"; date="2011-10-16"; rating="5"; break;
+	case 12:  reviewText="Love this game.  It sharpens the brain and it's fun to play because of the great doodles!"; appVersion="1.30"; user="NotAGamer!"; title="Cute doodles!"; date="2011-10-04"; rating="5"; break;
+	case 13:  reviewText="Just as fun as those little cards, without the mess!"; appVersion="1.20"; user="Takini72"; title="Cool classic fun!"; date="2011-08-07"; rating="4"; break;
+	case 14:  reviewText="Fun and just hard enough"; appVersion="1.20"; user="Keinalem"; title="Great Game"; date="2011-08-04"; rating="4"; break;
+	case 15:  reviewText="Does not work with iOS 8"; appVersion="1.50"; user="Peter Coombe"; title="iOS 8"; date="2014-10-01"; rating="1"; break;
+	case 16:  reviewText="Really enjoyed it till IOS8, can't get it to load properly now."; appVersion="1.50"; user="Gadato"; title="Wow"; date="2014-09-23"; rating="5"; break;
+	case 17:  reviewText="Really enjoyable app and great for the mind"; appVersion="1.50"; user="Sdwales"; title="Great app"; date="2013-09-26"; rating="5"; break;
+	case 18:  reviewText="Brain work out :) find it therapeutic!"; appVersion="1.50"; user="Trebor woodeast"; title="Jojodyanna"; date="2013-08-08"; rating="5"; break;
+	case 19:  reviewText="Good fun, what I was looking for"; appVersion="1.50"; user="Rebeccy81"; title="Simple, good fun, does what it says on the tin :)"; date="2013-08-07"; rating="5"; break;
+	case 20:  reviewText="Excellent"; appVersion="1.50"; user="Radman12345!"; title="Nice app"; date="2013-06-11"; rating="5"; break;
+	case 21:  reviewText="It's a pair game; you can't really go wrong??"; appVersion="1.50"; user="Dadster69"; title="Pairs"; date="2013-05-11"; rating="4"; break;
+	case 22:  reviewText="Keeps my brain going :)"; appVersion="1.50"; user="Trebor woodeast"; title="Jojodyanna"; date="2013-05-06"; rating="5"; break;
+	case 23:  reviewText="Love this game ... Great for brain training!!"; appVersion="1.50"; user="Sana-amaani"; title="Miss"; date="2013-03-06"; rating="5"; break;
+	case 24:  reviewText="Enjoy this game, have fun beating the clock."; appVersion="1.50"; user="Margemum"; title="Great"; date="2013-02-20"; rating="4"; break;
+	case 25:  reviewText="I love this game gets the old memory working"; appVersion="1.50"; user="Isaw3ships"; title="Brilliant"; date="2013-02-16"; rating="5"; break;
+	case 26:  reviewText="Brill game"; appVersion="1.50"; user="Ann Murphy"; title="Pairs"; date="2012-09-02"; rating="5"; break;
+	case 27:  reviewText="Very good..."; appVersion="1.50"; user="Pooja987"; title="Perfect time pass"; date="2012-08-20"; rating="5"; break;
+	case 28:  reviewText="Great little game, simple but challenging"; appVersion="1.50"; user="Onions R Us"; title="Ace free mind app"; date="2012-04-27"; rating="5"; break;
+	case 29:  reviewText="Simple instructions good fun"; appVersion="1.50"; user="Gillc22"; title="Good memory game"; date="2012-01-24"; rating="5"; break;
+	case 30:  reviewText="The pop-up ads block the actual game area. VERY FRUSTRATING AND POORLY DESIGNED. Otherwise a fun little memory game."; appVersion="1.10"; user="Pemus"; title="Could be good, but..."; date="2011-07-17"; rating="1"; break;
+	default : reviewText=""; appVersion=""; user=""; title=""; date=""; ratbreak;
+}
+testo.document.write("<body topmargin=10>\n");
+testo.document.write("<div align=left><p><b>App Version</b></br>\n");
+testo.document.write(appVersion+" </p></div>\n");
+testo.document.write("<div align=left><p><b>User</b></br>\n");
+testo.document.write(user+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Date</b></br>\n");
+testo.document.write(date+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Star rating</b></br>\n");
+testo.document.write(rating+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Review Title</b></br>\n");
+testo.document.write(title+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Review Text</b></br>\n");
+testo.document.write(reviewText+" </p></div>\n");
+testo.document.write("</body>\n");
+testo.document.write("</html>");
+}
+</script>
+</head>
+<body>
+<div>
+<h2>GUI</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(19);"> Good fun, what I was looking for</a></br>
+
+</div>
+
+<div>
+<h2>APP</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(30);"> Otherwise a fun little memory game</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(21);"> It's a pair game; you can't really go wrong</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(4);"> Great fun for all ages</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(19);"> Good fun, what I was looking for</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(24);"> Enjoy this game, have fun beating the clock</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(14);"> Fun and just hard enough</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(2);"> Love this game, it's just hard enough to keep your mind working</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(25);"> I love this game gets the old memory working</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(13);"> Just as fun as those little cards, without the mess</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(17);"> Really enjoyable app and great for the mind</a></br>
+
+</div>
+
+<div>
+<h2>CONTENTS</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(30);"> The pop-up ads block the actual game area</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(2);"> Love this game, it's just hard enough to keep your mind working</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(17);"> Really enjoyable app and great for the mind</a></br>
+
+</div>
+
+<div>
+<h2>DOWNLOAD</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(2);"> I have played this game everyday since I downloaded it</a></br>
+
+</div>
+
+<div>
+<h2>FEATURE/FUNCTIONALITY</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(7);"> Used to be an excellent game, but ads ruin the free version </a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(15);"> Does not work with iOS 8</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(19);"> Good fun, what I was looking for</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(21);"> It's a pair game; you can't really go wrong</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(18);"> Brain work out :) find it therapeutic</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(2);"> Love this game, it's just hard enough to keep your mind working</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(8);"> It's a fun game to pass the time away and it also makes you think and remember things</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(25);"> I love this game gets the old memory working</a></br>
+
+</div>
+
+<div>
+<h2>MODEL</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(15);"> Does not work with iOS 8</a></br>
+
+</div>
+
+<div>
+<h2>PRICING</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(7);"> Used to be an excellent game, but ads ruin the free version </a></br>
+
+</div>
+
+<div>
+<h2>RESOURCES</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(30);"> Otherwise a fun little memory game</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(6);"> Great game to sharpen any age level's memory skills</a></br>
+
+</div>
+
+<div>
+<h2>UPDATE/VERSION</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(7);"> Used to be an excellent game, but ads ruin the free version </a></br>
+
+</div>
+
+</body>
+</html>

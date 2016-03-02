@@ -1,0 +1,150 @@
+<html>
+<head>
+<h1>APP REVIEWS SUMMARY</h1>
+<script type="text/javascript">
+function messagePopup(message_id) {
+var stili = "top=10, left=10, width=400, height=250, location=no, directories=no, status=no, menubar=no, toolbar=no scrollbars=no";
+var testo = window.open("", "", stili);
+testo.document.write("<html>\n");
+testo.document.write(" <head>\n");
+testo.document.write("  <title>Review Details</title>\n");
+testo.document.write("  <basefont size=2 face=Tahoma>\n");
+testo.document.write(" </head>\n");
+switch(message_id){
+	case 0:  reviewText="This looked like it had nice clear tracking graphs, but unfortunately when it says it's compatible with the Health App, it means it can send information to it but not receive it, so you need to enter eg your weight manually all the time, even if your scales are already linked to your phone."; appVersion="1.4.2"; user="Jessiem2124"; title="Poor health app integration"; date="2015-06-06"; rating="2"; break;
+	case 1:  reviewText="L'application est très bonne en temps normale mais elle plante toujours quand on veut entrer la grandeur.  Ça fait ça depuis la dernière mise a jour!!!!"; appVersion="1.40"; user="Simlac11111"; title="Plante toujours"; date="2014-09-08"; rating="1"; break;
+	case 2:  reviewText="Love this app... However, it's gotta be a different way to see the dates when I input the weight. The only way I can see them, it's by changing the weight and looking at the graph. What if I don't change my weight?Instead of last week, should be a date. Also, from the beginning, should also be the date you started. Some dates would be great... Then i would give it 5 star app. Thanks"; appVersion="1.30"; user="Irina.cara"; title="Great, but..."; date="2012-09-19"; rating="3"; break;
+	case 3:  reviewText="This app us great! I am trying to lose weight and seeing my progress on this app definitely helps keep me motivated!"; appVersion="1.10"; user="Ginnerll"; title="Love it"; date="2011-08-23"; rating="4"; break;
+	case 4:  reviewText="Seems good so far. I like the graph idea..."; appVersion="1.00"; user="Winton W"; title="So far so good"; date="2011-08-17"; rating="4"; break;
+	case 5:  reviewText="This is a great app for keeping track of weight, especially if you're losing weight. There should be a way to turn off daily reminder to weigh. Also I notice it keeps changing the year I was born. Fix those two things and this is a 5-star app."; appVersion="1.00"; user="Carolsusant"; title="Great app"; date="2011-08-13"; rating="4"; break;
+	case 6:  reviewText="Simple to use and very comfortable."; appVersion="1.30"; user="Maasikas423"; title="Very useful"; date="2013-01-03"; rating="5"; break;
+	case 7:  reviewText="Very Straight forward, the graph gives you incentive. Very pleased :)"; appVersion="1.30"; user="Triconiall"; title="Great!"; date="2012-04-09"; rating="5"; break;
+	case 8:  reviewText="This is exactly what I was looking for. 5th star would of been for ability to share results / graph via email Facebook or twitter."; appVersion="1.30"; user="Gazbigboz"; title="Great app."; date="2012-01-23"; rating="4"; break;
+	case 9:  reviewText="I like seeing the growth chart before and being able to conceptualize my weight gains and losses. Now it's all itemized and less user-friendly."; appVersion="1.40"; user="Honeybooboobs"; title="Better before"; date="2014-08-16"; rating="2"; break;
+	case 10:  reviewText="I am currently trying 5 new weight tracking apps. This one is easy to use, easy to read and not complicated. However, I have found a few others that I like better."; appVersion="1.30"; user="Dimpleschick"; title="Average"; date="2013-09-30"; rating="3"; break;
+	case 11:  reviewText="This is a fantastic app so simple ad does exactly what you need it tonsnjssh"; appVersion="1.30"; user="Daizeeryanlow"; title="App"; date="2013-05-08"; rating="1"; break;
+	case 12:  reviewText="It just works."; appVersion="1.30"; user="Mikiozwei"; title="Good"; date="2013-04-14"; rating="5"; break;
+	case 13:  reviewText="It's great to start measuring yourself and seeing the progression of the weight loss"; appVersion="1.30"; user="tizi la linda"; title="Love the app"; date="2013-02-24"; rating="5"; break;
+	case 14:  reviewText="Just began using app and already impressed! Love how easy it is to use."; appVersion="1.30"; user="TremeBaby"; title="Miss"; date="2013-02-08"; rating="4"; break;
+	case 15:  reviewText="I was looking for smth simple to track my weight, this app does even more ))"; appVersion="1.30"; user="melody7605"; title="Great, I just love it"; date="2012-11-27"; rating="5"; break;
+	case 16:  reviewText="I can track weight, bmi, and whr. Love this app!"; appVersion="1.30"; user="Mewhoexactly"; title="Great app!"; date="2012-04-26"; rating="5"; break;
+	case 17:  reviewText="I wanted a simple, straight forward app to use to track my weight. This does just that. ?"; appVersion="1.20"; user="AnnoyedByNicknames!!"; title="What I wanted"; date="2011-11-15"; rating="5"; break;
+	case 18:  reviewText="I count kgs and cms, and must say this app it's not customized for those AT ALL although it says so. In general it needs to be worked on a bit more. Despite my 2 stars on this app, I'll keep it anyway (:"; appVersion="1.00"; user="MilaMalakoff"; title="Isn't the greatest thing for the metrics"; date="2011-08-17"; rating="2"; break;
+	case 19:  reviewText="Great way to track weight loss!"; appVersion="1.00"; user="f1darkin"; title="Great app!!"; date="2011-08-07"; rating="5"; break;
+	default : reviewText=""; appVersion=""; user=""; title=""; date=""; ratbreak;
+}
+testo.document.write("<body topmargin=10>\n");
+testo.document.write("<div align=left><p><b>App Version</b></br>\n");
+testo.document.write(appVersion+" </p></div>\n");
+testo.document.write("<div align=left><p><b>User</b></br>\n");
+testo.document.write(user+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Date</b></br>\n");
+testo.document.write(date+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Star rating</b></br>\n");
+testo.document.write(rating+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Review Title</b></br>\n");
+testo.document.write(title+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Review Text</b></br>\n");
+testo.document.write(reviewText+" </p></div>\n");
+testo.document.write("</body>\n");
+testo.document.write("</html>");
+}
+</script>
+</head>
+<body>
+<div>
+<h2>GUI</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(19);"> Great way to track weight loss</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(5);"> This is a great app for keeping track of weight, especially if you're losing weight</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(15);"> I was looking for smth simple to track my weight, this app does even more ))</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(2);"> The only way I can see them, it's by changing the weight and looking at the graph</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(16);"> I can track weight, bmi, and whr</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(10);"> I am currently trying 5 new weight tracking apps</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(13);"> It's great to start measuring yourself and seeing the progression of the weight loss</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(9);"> I like seeing the growth chart before and being able to conceptualize my weight gains and losses</a></br>
+
+</div>
+
+<div>
+<h2>APP</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(5);"> Fix those two things and this is a 5-star app</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(0);"> This looked like it had nice clear tracking graphs, but unfortunately when it says it's compatible with the Health App, it means it can send information to it but not receive it, so you need to enter eg your weight manually all the time, even if your scales are already linked to your phone</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(18);"> I count kgs and cms, and must say this app it's not customized for those AT ALL although it says so</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(5);"> This is a great app for keeping track of weight, especially if you're losing weight</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(18);"> Despite my 2 stars on this app, I'll keep it anyway (:</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(2);"> Then i would give it 5 star app</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(10);"> I am currently trying 5 new weight tracking apps</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(14);"> Just began using app and already impressed</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(15);"> I was looking for smth simple to track my weight, this app does even more ))</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(3);"> I am trying to lose weight and seeing my progress on this app definitely helps keep me motivated</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(11);"> This is a fantastic app so simple ad does exactly what you need it tonsnjssh</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(8);"> 5th star would of been for ability to share results / graph via email Facebook or twitter</a></br>
+
+</div>
+
+<div>
+<h2>CONTENTS</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(5);"> Fix those two things and this is a 5-star app</a></br>
+
+</div>
+
+<div>
+<h2>FEATURE/FUNCTIONALITY</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(5);"> Fix those two things and this is a 5-star app</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(5);"> There should be a way to turn off daily reminder to weigh</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(0);"> This looked like it had nice clear tracking graphs, but unfortunately when it says it's compatible with the Health App, it means it can send information to it but not receive it, so you need to enter eg your weight manually all the time, even if your scales are already linked to your phone</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(18);"> In general it needs to be worked on a bit more</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(2);"> What if I don't change my weight?Instead of last week, should be a date</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(5);"> This is a great app for keeping track of weight, especially if you're losing weight</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(3);"> I am trying to lose weight and seeing my progress on this app definitely helps keep me motivated</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(14);"> Just began using app and already impressed</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(9);"> I like seeing the growth chart before and being able to conceptualize my weight gains and losses</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(15);"> I was looking for smth simple to track my weight, this app does even more ))</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(8);"> This is exactly what I was looking for</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(10);"> This one is easy to use, easy to read and not complicated</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(13);"> It's great to start measuring yourself and seeing the progression of the weight loss</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(2);"> Also, from the beginning, should also be the date you started</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(10);"> However, I have found a few others that I like better</a></br>
+
+</div>
+
+<div>
+<h2>IMPROVEMENT</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(10);"> However, I have found a few others that I like better</a></br>
+
+</div>
+
+</body>
+</html>

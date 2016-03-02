@@ -1,0 +1,531 @@
+<html>
+<head>
+<h1>APP REVIEWS SUMMARY</h1>
+<script type="text/javascript">
+function messagePopup(message_id) {
+var stili = "top=10, left=10, width=400, height=250, location=no, directories=no, status=no, menubar=no, toolbar=no scrollbars=no";
+var testo = window.open("", "", stili);
+testo.document.write("<html>\n");
+testo.document.write(" <head>\n");
+testo.document.write("  <title>Review Details</title>\n");
+testo.document.write("  <basefont size=2 face=Tahoma>\n");
+testo.document.write(" </head>\n");
+switch(message_id){
+	case 0:  reviewText="it is a few hours but man is not released until today."; appVersion="2.00"; user="326566"; title="a joke"; date="2015-06-29"; rating="1"; break;
+	case 1:  reviewText="Facebook Login? Nope. App immediately deleted."; appVersion="2.00"; user="Dust99"; title="Login"; date="2015-06-28"; rating="1"; break;
+	case 2:  reviewText=""; appVersion="2.00 Uses Facebook"; user="De Päde us Züri"; title="deleted immediately."; date="2015-06-24"; rating="1"; break;
+	case 3:  reviewText=""; appVersion="1.70"; user="Brasildh"; title="Well .. wait for two weeks on. Unfortunately still no access to the app. Idea's cool, but takes far too long. Too bad. Wait the weekend even from , otherwise it is deleted again !!!!!!!!!"; date="2015-06-05"; rating="2"; break;
+	case 4:  reviewText="fun app, but too many inactive users"; appVersion="1.70"; user="Mawi2591"; title="OK"; date="2015-06-04"; rating="4"; break;
+	case 5:  reviewText="though says that it is also compatible with the iPad, but not true! The logo is not displayed correctly and when you open the app is the representation, as if you open an iPhone app on the iPad ... If possible update, then there are more stars. PS. Another point is the recording process: You have to login to FB, but nevertheless it's several days before it will be accepted as a member ??? For me, completely incomprehensible !!!"; appVersion="1.70"; user="bene lynx"; title="Ipad"; date="2015-06-03"; rating="3"; break;
+	case 6:  reviewText="though says that it is also compatible with the iPad, but not true! The logo is not displayed correctly and when you open the app is the representation, as if you open an iPhone app on the iPad ...If possible update, then there are more stars"; appVersion="1.70"; user="bene lynx"; title="Ipad"; date="2015-06-02"; rating="3"; break;
+	case 7:  reviewText="how long do I have to wait?"; appVersion="1.60"; user="Anbos"; title="wait"; date="2015-05-24"; rating="2"; break;
+	case 8:  reviewText="Worst app I've ever downloaded, waste of time, do not even bother, They Do not even review your profile so I have not even tried it"; appVersion="1.60"; user="Enemy1993"; title="Absolutely terrible"; date="2015-05-24"; rating="1"; break;
+	case 9:  reviewText="Si vous voulez utiliser cette app, soyez trèèèès patients! Ça fait plus d'une semaine que j'attends d'être éventuellement accepté par la communauté C'est juste scandaleux, tout ceux qui veulent devrait pouvoir utiliser les apps PRESENTES sur le Store!"; appVersion="1.60"; user="Zugzug92"; title="Nullissime"; date="2015-05-23"; rating="1"; break;
+	case 10:  reviewText="and without Facebook can Blinq not use or how ??? There must also be an alternative logon options! Are there any other everywhere"; appVersion="1.60"; user="Grcka"; title="Facebook"; date="2015-05-20"; rating="1"; break;
+	case 11:  reviewText=""; appVersion="1.60"; user="glorrrriaaa"; title="App hangs after reboot, crash, app Reload my app hangs when starting up easy. Unglaulich annoying! worst: support address is wrong and you end up in nirvana ."; date="2015-05-17"; rating="1"; break;
+	case 12:  reviewText=""; appVersion="1.60"; user="Ich9987654"; title="When we go? I'm already about 2 weeks in status profile is checked ... high  App works accordingly not at all."; date="2015-04-29"; rating="1"; break;
+	case 13:  reviewText="Like it very much!"; appVersion="1.60"; user="blinq-blinq"; title="wonderful dating!"; date="2015-03-26"; rating="5"; break;
+	case 14:  reviewText="waiting Meanwhile more than a week and nothing has happened."; appVersion="1.60"; user="Kennyun1337"; title="Not good"; date="2015-03-19"; rating="1"; break;
+	case 15:  reviewText="So I'm still waiting for the recording since 7 days !!"; appVersion="1.60"; user="bruums"; title="Well"; date="2015-03-14"; rating="1"; break;
+	case 16:  reviewText="Okay"; appVersion="1.60"; user="Christoph 40"; title="Blinq"; date="2015-03-14"; rating="4"; break;
+	case 17:  reviewText="No one writes back"; appVersion="1.5.2"; user="cranial Schnegg"; title="too many inactive users"; date="2015-02-28"; rating="1"; break;
+	case 18:  reviewText=""; appVersion="1.5.2"; user="Magjunior"; title="Sem sentido so poder utilizar o aplicativo após ser aceito na Comunidade é ridículo!"; date="2015-02-06"; rating="1"; break;
+	case 19:  reviewText="Requires Facebook; deleted immediately. Requires Facebook; immediately deleted."; appVersion="1.5.2"; user="KafiGipfeli"; title="Requires Facebook"; date="2015-02-05"; rating="1"; break;
+	case 20:  reviewText="Dont bother! U need a Facebook login and only god knows how many friends!"; appVersion="1.5.2"; user="Arrrsy"; title="junk"; date="2015-02-04"; rating="1"; break;
+	case 21:  reviewText=""; appVersion="1.5.2"; user="r1caux"; title="inactive user There are too many users are indeed inactive. Should defenitely do something about that."; date="2015-01-31"; rating="3"; break;
+	case 22:  reviewText="How long does it take until it is picked up?"; appVersion="1.5.1"; user="DebbieGraf1992"; title="goes too long"; date="2015-01-07"; rating="2"; break;
+	case 23:  reviewText="for in between"; appVersion="1.5.1"; user="Tester132465"; title="Funny"; date="2015-01-06"; rating="5"; break;
+	case 24:  reviewText=""; appVersion="1.5.1"; user="LoveSG"; title="Really, not a lot of people on there. What else do you join thesis for services?"; date="2014-12-23"; rating="1"; break;
+	case 25:  reviewText="Nul à chier!"; appVersion="1.5.1"; user="Laurent Bondallaz"; title="Bling quoi ???"; date="2014-12-20"; rating="1"; break;
+	case 26:  reviewText="That with the entrance exam ... If you register recording chance was high. After recommendation to FB friends dropped to low. One should so do not recommend this app better next to the creators:... that's kid stuff, if you eventually want to sales, then you have to pursue a different strategy"; appVersion="1:50"; user="Core Force"; title="I do not recommend"; date="2014-12-18"; rating="2"; break;
+	case 27:  reviewText=""; appVersion="1.50 Once again ...."; user="raffster"; title=".... unfortunately only possible with Facebook! Too Bad. Ums times finely express them"; date="2014-12-18"; rating="1"; break;
+	case 28:  reviewText=""; appVersion="1.50 Password problem"; user="Micheltook"; title="WTF with the password?! Bad app, seriously !!"; date="2014-11-16"; rating="1"; break;
+	case 29:  reviewText="C'est un plagiarism et un fake."; appVersion="1.50"; user="Deki1820"; title="Fake"; date="2014-11-13"; rating="1"; break;
+	case 30:  reviewText=":-)"; appVersion="1.50"; user="Samba1900000"; title="Keep it up! Good job !"; date="2014-11-08"; rating="5"; break;
+	case 31:  reviewText=""; appVersion="1.50"; user="WhytiNr1"; title="wait! Even wait for weeks you could add me times"; date="2014-11-07"; rating="1"; break;
+	case 32:  reviewText="please do not install only people verarsche !!! You can login with Facebook only and everything is released !!! And delete that is almost impossible lasts for two weeks !!"; appVersion="1.50"; user="Playone91"; title="vulnerabilities"; date="2014-11-03"; rating="1"; break;
+	case 33:  reviewText=""; appVersion="1.50 Useless"; user="Spahni"; title="The app is not usable. Eternal waiting to release !!! I'm still waiting !!! And I'm still waiting !!!"; date="2014-10-27"; rating="1"; break;
+	case 34:  reviewText="Great app with beautiful design! Had to wait a little longer though to be adopted, (2 weeks) (the need to have read the current user you evaluate first) which is certainly very attractive users' arise pool lässt..es was well worth it."; appVersion="1.50"; user="marlon235"; title="great app"; date="2014-10-25"; rating="5"; break;
+	case 35:  reviewText=""; appVersion="1.50 Useless"; user="Spahni"; title="The app is not usable. Eternal waiting to release !!! I'm still waiting !!!"; date="2014-10-20"; rating="1"; break;
+	case 36:  reviewText="Because I refuse the Facebook hype and an account with no friends did, I can not use the app. So much for privacy ..... Then halt without me!"; appVersion="1.50"; user="dee544"; title="Do not go"; date="2014-10-09"; rating="1"; break;
+	case 37:  reviewText="unfortunately Application possible only with a Facebook profile! This I did not want and do not have too."; appVersion="1:50"; user="ITset"; title="unfortunately"; date="2014-10-09"; rating="1"; break;
+	case 38:  reviewText="?????"; appVersion="1:50"; user="Sir Zizzou"; title="something for everyone!"; date="2014-10-08"; rating="4"; break;
+	case 39:  reviewText="Super pastime"; appVersion="1:50"; user="Philzphil"; title="top"; date="2014-10-08"; rating="5"; break;
+	case 40:  reviewText=""; appVersion="1.50 Useless"; user="Spahni"; title="The app is not usable. Eternal waiting to be released !!!"; date="2014-10-03"; rating="1"; break;
+	case 41:  reviewText="There is no way Einzulogen without all admit award. I am not in possession of a Facebook account, so I had an extra create but now I can not get access because I have too few contacts fb !!!! ????? Hi !!! What is the sch ...?"; appVersion="1.4.1"; user="Swiss -JOC"; title="Facebook and many data are required"; date="2014-09-28"; rating="1"; break;
+	case 42:  reviewText="Super App"; appVersion="1.4.1"; user="Nikoking90"; title="top"; date="2014-09-28"; rating="5"; break;
+	case 43:  reviewText="Very bad for days on waiting for the code."; appVersion="1.4.1"; user="Warrior2070"; title="very bad for days on waiting for the code."; date="2014-09-14"; rating="1"; break;
+	case 44:  reviewText=""; appVersion="1.4.1"; user="Pablo Lojo"; title="Sell your friends for a hi  The greed of this developer in order to collect personal data is big. His apps are all about Entering Facebook data. The privacy policy does not show and That should tell you, how trust worthy the developer may be."; date="2014-09-08"; rating="1"; break;
+	case 45:  reviewText="Very schlecht?, waiting for days for because passcode and keep getting anything yet !!!"; appVersion="1.4.1"; user="BnC_18"; title="???"; date="2014-09-02"; rating="1"; break;
+	case 46:  reviewText="if only every app would be so simple:) Possibly. a function to install the latest hi's or Bye's irreversible. Can happen that you caught the wrong button !!! Otherwise TOP"; appVersion="1.4.1"; user="vsicher"; title="simple and good"; date="2014-08-28"; rating="5"; break;
+	case 47:  reviewText="one needs necessarily a Facebook account to be able to use this app. Since I have no back down with the app"; appVersion="1.4.1"; user="Borusse20380"; title="Needless"; date="2014-08-16"; rating="1"; break;
+	case 48:  reviewText="Simple, well-implemented"; appVersion="1.4.1"; user="Fujens"; title="Simple, just awesome"; date="2014-08-14"; rating="5"; break;
+	case 49:  reviewText="as is so often a smart concept and a very easy to use is simply the best mixture. In addition"; appVersion="1.4.1"; user="Hoproster"; title="fresh and simple"; date="2014-08-11"; rating="5"; break;
+	case 50:  reviewText="werde.Ach added select circle Yes ... From Support I need not write. They probably for some time Ferien.Was you have other people pay, they give off you ne good evaluation? And anyway ... What is the garbage with the admissions process? How specifically are you now not."; appVersion="1.40"; user="shadow_124"; title="2 weeks on ... wait"; date="the selection by Facebook login and community is really visible! Now wait Bin for weeks on until I in the achso 2014-07-28"; rating="1"; break;
+	case 51:  reviewText=""; appVersion="1.30 Worst app ever !!!"; user="LoLeduc"; title="So a drecks app !! Wait now already more than 3 months on the recording! Useless !!!"; date="2014-07-26"; rating="1"; break;
+	case 52:  reviewText="super idea with beautiful design"; appVersion="1:40"; user="vany bunny"; title="super"; date="2014-07-23"; rating="4"; break;
+	case 53:  reviewText="Great app with beautiful design! Had to wait a little longer though to be adopted, (2 weeks) (the need to have read the current user you evaluate first) which is certainly very attractive users' arise pool lässt..es was well worth it."; appVersion="1.30"; user="marlon235"; title="great app"; date="2014-07-18"; rating="5"; break;
+	case 54:  reviewText="Super people here have, exclusively made only good experience ;-)"; appVersion="1.30"; user="Supagunzi"; title="Tip Top"; date="2014-07-13"; rating="5"; break;
+	case 55:  reviewText="waiting and waiting and waiting ... you will not be included as members for days. Very poor customer service. The postiven reviews most likely fakes. Delete app again."; appVersion="1.30"; user="Gr user 33"; title="Very poor service"; date="2014-07-08"; rating="1"; break;
+	case 56:  reviewText="The app is very well done: simple and straightforward to use! Have seen many cool people know! ;-)"; appVersion="1.30"; user="Cinderella725"; title="just great !!"; date="2014-06-12"; rating="5"; break;
+	case 57:  reviewText=""; appVersion="1.30 Perfect!"; user="Unkekannt"; title="Love the app?????"; date="2014-06-12"; rating="5"; break;
+	case 58:  reviewText="I'm now waiting for 2 weeks at a time, until I in the achso werde.Ach added select circle Yes ... From the support I need not write. They probably for some time Ferien.Was you have other people pay, they give off you ne good evaluation? And anyway ... What is the waste of the recording process? How specifically are you now neither."; appVersion="1.30"; user="shadow_124"; title="2 weeks waiting on ..."; date="2014-05-28"; rating="1"; break;
+	case 59:  reviewText="app downloaded more than 1 month or logged profile has not yet been activated, contact Support no answer, have written 3 times."; appVersion="1.2.1"; user="Maurizio707"; title="Bad ?"; date="2014-05-02"; rating="1"; break;
+	case 60:  reviewText="waiting since 16Tagen ... Support lousy, not responding"; appVersion="1:30"; user="Don Patrizio"; title="unlock"; date="2014-04-16"; rating="1"; break;
+	case 61:  reviewText="lasted for 3 weeks."; appVersion="1.30"; user="Fr34k99"; title="unlock"; date="2014-04-10"; rating="1"; break;
+	case 62:  reviewText=""; appVersion="1.30 Great app"; user="Luthisl"; title="Cool app, to meet new people."; date="2014-04-09"; rating="5"; break;
+	case 63:  reviewText=""; appVersion="1.20 Finally good people"; user="Emanuel Steiner"; title="Did Although have to wait 7 days on my cut-off, but was worth it. Here hats people not with style as with many other apps ... .."; date="2014-04-04"; rating="5"; break;
+	case 64:  reviewText=""; appVersion="1.30 Great app"; user="Luthisl"; title="get to know new people Cool app."; date="2014-03-30"; rating="5"; break;
+	case 65:  reviewText="Hey Han ETZ the app fb gmacht han but druff away zwenig colleague! Laded Ebbert me mitm code ih?"; appVersion="1.30"; user="underline 90"; title="Zwenig fb friends"; date="2014-03-25"; rating="3"; break;
+	case 66:  reviewText="Mitlerweile loosely installed the app on 2Monate and still waiting: S can jeman me please add?"; appVersion="1.2.1"; user="Alban Hyseni"; title="Disappointed"; date="2014-03-25"; rating="1"; break;
+	case 67:  reviewText="Top"; appVersion="1.30"; user="elias92"; title="Funny"; date="2014-03-23"; rating="4"; break;
+	case 68:  reviewText=""; appVersion="1.30 Once uncomplicated ..."; user="Ckhobi"; title="The app has its charm by the fact that everything happens without obligation. The people that you can meet make a relatively serious impression and everything else you yourself in the hand ..."; date="2014-03-23"; rating="5"; break;
+	case 69:  reviewText="It's a great and fun app !!! Try it out!"; appVersion="1.30"; user="L-P86"; title="Excellent app"; date="2014-03-22"; rating="5"; break;
+	case 70:  reviewText=""; appVersion="1.30 Cool app"; user="OrlandoTemperli"; title="Practical, great design, nice people! What more could you want?"; date="2014-03-22"; rating="5"; break;
+	case 71:  reviewText="this app makes süchtig.Bin day there."; appVersion="1.30"; user="Fabiola822"; title="just great"; date="2014-03-22"; rating="5"; break;
+	case 72:  reviewText=""; appVersion="1.30 Schono funny"; user="Jesse of Death"; title="Far better than the whole Badoo handling ago, a surprising number of attractive people in there, yet. Unstable in all corners of the main parts are no is other users found in some places you will simply be logged out weggedrückte persons appear again in the feed. Reminiscent of Frustration Level ago on Flappy Bird, where you can also go back here often because you can not believe it last time went and convinced so wrong that it will now work out. Bottom line, but 4 stars, so there are more downloads and the bugs are fixed hopefully faster and more efficiently."; date="2014-03-22"; rating="4"; break;
+	case 73:  reviewText="Super App"; appVersion="1.30"; user="Nikoking90"; title="top"; date="2014-03-21"; rating="5"; break;
+	case 74:  reviewText=""; appVersion="1.2.1"; user="GWAS"; title="bad fütz en masse but only grusigi"; date="2014-03-12"; rating="1"; break;
+	case 75:  reviewText="rather uncool the app"; appVersion="1.2.1"; user="cloud cloud"; title="review the profile not transparent"; date="2014-03-11"; rating="2"; break;
+	case 76:  reviewText="find the app awesome !! First, through the evaluation of the new user, the high number of fake profiles as is customary in other such Apps , prevents and secondly you have a super mix by !! The release was not even a day !! :)"; appVersion="1.2.1"; user="Alisho"; title="Genial !!"; date="2014-02-23"; rating="5"; break;
+	case 77:  reviewText=""; appVersion="1.20 Super App"; user="melbic"; title="Gfbvhh"; date="2014-02-20"; rating="5"; break;
+	case 78:  reviewText="Genial !!!!"; appVersion="1.2.1"; user="Ljuu"; title="Suuuuper !!!!"; date="2014-02-12"; rating="5"; break;
+	case 79:  reviewText="shit app"; appVersion="1.2.1"; user="Staeli"; title="shit app"; date="2014-01-21"; rating="1"; break;
+	case 80:  reviewText=""; appVersion="1.20 wait -.-"; user="$ t €€ v €"; title="Now I've been waiting two weeks That can not be true! Miserably! When I am finally received, I write to hire a new review, if I have the app to then not deleted ..!"; date="2014-01-13"; rating="1"; break;
+	case 81:  reviewText=""; appVersion="1.20 distance"; user="Flfudzn rxns"; title="Good app, but the distance information are very inaccurate (distances much less than in reality (both air and actual distance, whatever it is supposed to be) Please adjust absolutely! Thank you"; date="2014-01-11"; rating="3"; break;
+	case 82:  reviewText=""; appVersion="1.20 Super App"; user="Hugoprimero"; title="Cool people, cool design. Really fun!"; date="2013-12-29"; rating="5"; break;
+	case 83:  reviewText=""; appVersion="1.20 Great App"; user="moooonandstars"; title="the wait was worth it. Very well-done app!"; date="2013-12-29"; rating="5"; break;
+	case 84:  reviewText=""; appVersion="1.20 Cool Community"; user="Deniseiseise"; title="Coole community with very open people. Try it!"; date="2013-12-24"; rating="5"; break;
+	case 85:  reviewText=""; appVersion="1.20 power had to wait a few days, but was worth it. Super App Fun"; user="mäkkkkkkki"; title="Get"; date="2013-12-24"; rating="5"; break;
+	case 86:  reviewText="since week I'm waiting for the access code .. despite phenomenal chance an access code it .. down zuladen is not recommended !!!"; appVersion="1.1.1"; user="Tony890z"; title="no access"; date="2013-12-10"; rating="1"; break;
+	case 87:  reviewText="a really bad copy of Tinder ..."; appVersion="1.1.1"; user="Dhjklm"; title="copy Tinder"; date="2013-12-10"; rating="1"; break;
+	case 88:  reviewText="I love the app - the selection process gives you access to a great bunch of fun and happy people. One does not waste time weeding through mediocre contact requests."; appVersion="1.1.1"; user="Jaene-schwoerts"; title="Awesome App - Great selection of people"; date="2013-12-07"; rating="5"; break;
+	case 89:  reviewText="thereby quickly you lose the desire to use this app .... Verarsche? Tztzt"; appVersion="1.1.1"; user="Icke121212"; title="After a week of no activation"; date="2013-12-04"; rating="1"; break;
+	case 90:  reviewText=""; appVersion="1.1.1"; user="Bimmer87"; title="super thing! Cool app, decent people, good design !!!"; date="2013-12-02"; rating="5"; break;
+	case 91:  reviewText="Really Cool App"; appVersion="1.1.1"; user="Marlis B"; title="real awesome!"; date="2013-11-29"; rating="5"; break;
+	case 92:  reviewText="Super App! Works flawlessly! I can only recommend ..."; appVersion="1.1.1"; user="Lubinie"; title="Top!"; date="2013-11-29"; rating="5"; break;
+	case 93:  reviewText="very fresh design and super easy to use. And the chicks are great cinema :)"; appVersion="1.1.1"; user="Sgt Payne"; title="Cool app"; date="2013-11-28"; rating="5"; break;
+	case 94:  reviewText="there am impressed that you can decide as existing users who will be included in the community. So there's finally an app decent people!"; appVersion="1.1.1"; user="Alex Zimmermann"; title="Cool app with cool people"; date="2013-11-28"; rating="5"; break;
+	case 95:  reviewText="a result"; appVersion="1.1.1"; user="Icke121212"; title="After a week of no activation"; date="2013-11-28"; rating="1"; break;
+	case 96:  reviewText=""; appVersion=""; user=""; title=""; date="one can lose the desire to use this app ...."; rating="NA"; break;
+	case 97:  reviewText="Did Although have to wait 7 days on my cut-off, but was worth it. Here hats people with style not apps like many other. .."; appVersion="1.1.1"; user="Emanuel Steiner"; title="Finally good people"; date="2013-11-27"; rating="5"; break;
+	case 98:  reviewText=""; appVersion="1.1.1"; user="Bruzito"; title="and without Facebook no chance ?? !!! Absolutely bad app because it can be deregistered with Facebook !!! That can not be that one forced is to open a Facebook account to log out here? There are other ways to verify the authenticity of a user !!!"; date="2013-11-26"; rating="1"; break;
+	case 99:  reviewText="Is nowadays nothing without Facebook?!?!"; appVersion="1.1.1"; user="Mauseke"; title="Facebook?!?!?"; date="2013-11-25"; rating="1"; break;
+	case 100:  reviewText=""; appVersion="1.1.1"; user="Harione"; title="Good app works pretty. But has often delay chatting ... improvement but otherwise top!"; date="2013-11-25"; rating="4"; break;
+	case 101:  reviewText="4.Wochen Since I'm waiting for a code that is now deleted too long."; appVersion="1.1.1"; user="Jo Mhh"; title="Jo MHH"; date="2013-11-25"; rating="1"; break;
+	case 102:  reviewText="Great app with beautiful design! Had to wait a little longer though to be adopted, (2 weeks) (have read that the current user you evaluate first must) which ensures the very attractive pool users' arise lässt..es was well worth it."; appVersion="1.1.1"; user="marlon235"; title="great app"; date="2013-11-21"; rating="5"; break;
+	case 103:  reviewText="Facebook is needed ... Sorry but where does the way that it just goes with the Datenkrake Unfortunately No -> Delete"; appVersion="1.1.1"; user="Leq"; title="Neenee !!"; date="2013-11-20"; rating="1"; break;
+	case 104:  reviewText="really bad the App.2 minutes deleted immediately."; appVersion="1.1.1"; user="368372173"; title="Only with Facebook"; date="2013-11-18"; rating="1"; break;
+	case 105:  reviewText="Great app with beautiful design! Had to wait a little longer though to be adopted, (2 weeks) (the need to have read the current user you evaluate first) which is certainly very attractive users' arise pool lässt..es was well worth it."; appVersion="1.10"; user="marlon235"; title="great app"; date="2013-11-18"; rating="5"; break;
+	case 106:  reviewText="waiting for securely over 4 weeks on an access code ... Despite phenomenal"; appVersion="1.1.1"; user="Space_91"; title="useless ..."; date="2013-11-17"; rating="1"; break;
+	case 107:  reviewText=""; appVersion="1.10 Cool concept"; user="daaaaviiiid"; title="made it very cool with Hi and Bye"; date="2013-11-07"; rating="5"; break;
+	case 108:  reviewText="1: 1 copy of the Tinder . App Holt the original!"; appVersion="1.10"; user="Seb3625"; title="copy"; date="2013-11-03"; rating="1"; break;
+	case 109:  reviewText=""; appVersion="1.0.2"; user="J. W."; title="Ever in operation? My phenomenal recording probability is now three weeks old! Involving probably deduct just about the Facebook data ..."; date="2013-10-16"; rating="1"; break;
+	case 110:  reviewText="well guess that this is a fraud-app. Get for weeks not any access and support to respond despite repeated requests"; appVersion="1.0.2"; user="__ ro"; title="angry"; date="2013-10-10"; rating="1"; break;
+	case 111:  reviewText="great app with beautiful design! Had to wait a little longer to be accepted but it was well worth it."; appVersion="1.0.2"; user="marlon235"; title="great app"; date="2013-09-23"; rating="5"; break;
+	case 112:  reviewText="waiting for more than 2 weeks for the activation. If still nothing happens ... hope this will change soon ..."; appVersion="1.0.2"; user="Huuuuuiiiiii"; title="Wait ..."; date="2013-09-22"; rating="1"; break;
+	case 113:  reviewText="probably the developer wants eunfach rankommen their data. Could Betrugsapp."; appVersion="1.0.2"; user="Juuuuiuuuu"; title="bullshit"; date="2013-09-22"; rating="1"; break;
+	case 114:  reviewText="made it very cool with Hi and Bye"; appVersion="1.0.2"; user="daaaaviiiid"; title="cool concept"; date="2013-09-20"; rating="5"; break;
+	case 115:  reviewText="the wait was worth it. Very well-done app!"; appVersion="1.0.2"; user="moooonandstars"; title="Great App"; date="2013-09-20"; rating="5"; break;
+	case 116:  reviewText="Cool people, cool design. Really fun!"; appVersion="1.0.2"; user="Hugoprimero"; title="Super App"; date="2013-09-20"; rating="5"; break;
+	case 117:  reviewText="Silk account for over a week and still does not work! Scheiss app!"; appVersion="1.0.2"; user="Laurent Wildi"; title="does not work!"; date="2013-09-17"; rating="1"; break;
+	case 118:  reviewText="It's far too long until the access code is, wait for more than a week :("; appVersion="1.0.1"; user="Dongioabcdefg"; title="goes much too long"; date="2013-09-16"; rating="1"; break;
+	case 119:  reviewText="wait for a week despite receiving-assessment 'phenomenal' in any reaction ... idea is great, but so the curiosity goes fast. what a shame."; appVersion="1.0.1"; user="f4stl4ne"; title="wait ..."; date="2013-09-16"; rating="2"; break;
+	case 120:  reviewText="In spite of a phenomenal - s review my profile, I was not taken even after more than a week in the community Property here. just read in the reviews that you have to wait two weeks. Too late, I have my account deleted already."; appVersion="1.0.1"; user="Wave Launcher"; title="to long wait"; date="2013-09-16"; rating="1"; break;
+	case 121:  reviewText="despite the indication I had phenomenal. Does unlocking more than 2 weeks. It's too long."; appVersion="1.0.1"; user="Disasta1875"; title="unlock"; date="2013-09-14"; rating="1"; break;
+	case 122:  reviewText=""; appVersion="1.0.1"; user="Runes2486"; title="Great app Love the great design. Fun Way to Get Introduced to new people!"; date="2013-09-13"; rating="5"; break;
+	case 123:  reviewText=""; appVersion="1.00 blinq"; user="Max Park"; title="Super App, just when you're in a foreign city. I can only recommend."; date="2013-09-13"; rating="5"; break;
+	case 124:  reviewText="Practical, great design, nice people! What more could you want?"; appVersion="1.0.1"; user="OrlandoTemperli"; title="Cool app"; date="2013-09-13"; rating="5"; break;
+	case 125:  reviewText="I already met some nice people and the hi-en and bye-en is a fun pastime for Download the road. Definitely."; appVersion="1.0.1"; user="Simse13"; title="Entertaining Acquaintance app"; date="2013-09-13"; rating="5"; break;
+	case 126:  reviewText="Very cool people on the app and top design!"; appVersion="1.0.1"; user="Doreg1"; title="Top!"; date="2013-09-13"; rating="5"; break;
+	case 127:  reviewText="app crashes at the moment to start ..."; appVersion="1:00"; user="Fabio Relling"; title="..."; date="2013-09-12"; rating="5"; break;
+	case 128:  reviewText="wait for a week despite receiving-assessment 'phenomenal' in any reaction ... idea is great, but so the curiosity goes fast. Pity."; appVersion="1:00"; user="f4stl4ne"; title="waiting ..."; date="2013-09-11"; rating="2"; break;
+	case 129:  reviewText=""; appVersion="1.00 start trouble?!"; user="iPatMei"; title="Waiting on since 3D on an access code. If the starting problems, or is it worth to delete the App identical resist ....?"; date="2013-09-10"; rating="1"; break;
+	case 130:  reviewText="This app is pure Vera Rasche and draws just once all the data from the phone Facebook activation, location services - not the point ... no download, a waste of time .."; appVersion="1:00"; user="Nene ...."; title="very bad"; date="2013-09-10"; rating="1"; break;
+	case 131:  reviewText=""; appVersion="1.00 Facebook only"; user="Indonesian specialties"; title="They Should call it Facebook blinq cause it works only with a FB account. Useless to me."; date="2013-09-08"; rating="1"; break;
+	case 132:  reviewText="you have to wait for an access code and it works only on Facebook Boock ... -.-"; appVersion="1.00"; user="GaMeR_95"; title="??"; date="2013-09-07"; rating="1"; break;
+	case 133:  reviewText="The first impression is ever gelungen.Korrektur: The input mask should be expanded, if you start a second line."; appVersion="1.00"; user="Cyrill1"; title="Cool design"; date="2013-09-07"; rating="4"; break;
+	case 134:  reviewText=""; appVersion="1:00"; user="Krude round Dorfmeister"; title="waiting. You have to wait for an access code, you can start up."; date="2013-09-04"; rating="1"; break;
+	case 135:  reviewText="this app makes süchtig.Bin day there."; appVersion="1.00"; user="Fabiola822"; title="just great"; date="2013-08-25"; rating="5"; break;
+	case 136:  reviewText=""; appVersion="1.00 Just had my firt date in 2 years !!"; user="Lholderiii"; title="Great way to meet new people."; date="2013-08-24"; rating="5"; break;
+	case 137:  reviewText=""; appVersion="1.00 Great app"; user="slussi"; title="I love this app! Sleek interface and just good fun! A must have!"; date="2013-08-24"; rating="5"; break;
+	case 138:  reviewText="Find the app is really fun! The link with FB I think is good! Design also great - I like! ;)"; appVersion="1.00"; user="mangoo88"; title="class!"; date="2013-08-23"; rating="5"; break;
+	case 139:  reviewText=""; appVersion="1.00 Just great!"; user="c0caine"; title="Awesome app to meet interesting people!"; date="2013-08-23"; rating="5"; break;
+	case 140:  reviewText=""; appVersion="1.00 real awesome!"; user="Marlis B"; title="Really Cool App"; date="2013-08-22"; rating="5"; break;
+	case 141:  reviewText="After many apps in this kind, this app has a refreshing new, bravo!"; appVersion="1:00"; user="Adrian Friedli"; title="Well done"; date="2013-08-21"; rating="5"; break;
+	case 142:  reviewText=""; appVersion="42"; user="NA"; title=""; date="2014-11-28T04:56:46Z"; rating="5"; break;
+	case 143:  reviewText=""; appVersion=""; user="NA"; title=""; date="2014-11-28T14:55:16Z"; rating="5"; break;
+	case 144:  reviewText="I wonder what Facebook social relevance has to do only because I am less active in FB"; appVersion="42"; user="NA"; title="Soziale Relevance"; date="2014-11-28T22:50:39Z"; rating="3"; break;
+	case 145:  reviewText=""; appVersion="42"; user="NA"; title=""; date="2014-11-29T10:58:52Z"; rating="5"; break;
+	case 146:  reviewText=""; appVersion="42"; user="NA"; title=""; date="2014-12-01T00:38:30Z"; rating="5"; break;
+	case 147:  reviewText=""; appVersion="42"; user="NA"; title=""; date="2014-12-01T04:56:57Z"; rating="5"; break;
+	case 148:  reviewText="Es can not be the people to their social facebook status are included as is clearly Badoo etc besser."; appVersion="42"; user="NA"; title=""; date="2014-12-02T22:05:55Z"; rating="1"; break;
+	case 149:  reviewText=""; appVersion="42"; user="NA"; title=""; date="2014-12-03T02:28:55Z"; rating="1"; break;
+	case 150:  reviewText="Crashing all 5 min"; appVersion=""; user="NA"; title=""; date="2014-12-07T09:48:19Z"; rating="3"; break;
+	case 151:  reviewText=""; appVersion="42"; user="NA"; title=""; date="2014-12-07T13:43:47Z"; rating="5"; break;
+	case 152:  reviewText="Hab The app now has net week and only 1 match ... and sorry so bad I look also net ... oh yes"; appVersion="42"; user="NA"; title="Scheisse"; date="2014-12-07T14:11:10Z"; rating="1"; break;
+	case 153:  reviewText="appears to be designed quite nice. However"; appVersion="42"; user="NA"; title="Problem Search with the people"; date="2014-12-08T20:16:21Z"; rating="2"; break;
+	case 154:  reviewText="I was not included due to a few Facebook friends. What a impudence now you will be measured on number of friends and mainstream advertising still makes for such a shit App."; appVersion="42"; user="NA"; title="Extrem frivolous"; date="2014-12-09T09:17:03Z"; rating="1"; break;
+	case 155:  reviewText=""; appVersion="42"; user="NA"; title=""; date="2014-12-11T14:08:36Z"; rating="1"; break;
+	case 156:  reviewText=""; appVersion="42"; user="NA"; title=""; date="2014-12-14T14:04:22Z"; rating="1"; break;
+	case 157:  reviewText=""; appVersion="42"; user="NA"; title=""; date="2014-12-14T16:39:41Z"; rating="2"; break;
+	case 158:  reviewText=""; appVersion="46"; user="NA"; title=""; date="2014-12-15T18:08:38Z"; rating="5"; break;
+	case 159:  reviewText=""; appVersion="46"; user="NA"; title=""; date="2014-12-16T19:14:04Z"; rating="5"; break;
+	case 160:  reviewText=""; appVersion="46"; user="NA"; title=""; date="2014-12-17T16:33:49Z"; rating="5"; break;
+	case 161:  reviewText="Really good experience and simple interface."; appVersion="46"; user="NA"; title="Awesome app"; date="2014-12-17T21:31:21Z"; rating="5"; break;
+	case 162:  reviewText="Selbst when my FB account would still active; if the keyboard is not popping up"; appVersion="46"; user="NA"; title="Facebook"; date="2014-12-18T10:19:39Z"; rating="1"; break;
+	case 163:  reviewText=""; appVersion="46"; user="NA"; title=""; date="2014-12-19T13:50:28Z"; rating="1"; break;
+	case 164:  reviewText="Sollid"; appVersion=""; user="NA"; title="Good"; date="2014-12-20T08:51:13Z"; rating="5"; break;
+	case 165:  reviewText=""; appVersion="46"; user="NA"; title=""; date="2014-12-21T13:24:10Z"; rating="5"; break;
+	case 166:  reviewText=""; appVersion="46"; user="NA"; title=""; date="2014-12-22T00:49:36Z"; rating="4"; break;
+	case 167:  reviewText=""; appVersion="46"; user="NA"; title=""; date="2014-12-26T15:15:45Z"; rating="5"; break;
+	case 168:  reviewText="Whats The Access code??"; appVersion="46"; user="NA"; title="Help"; date="2014-12-26T19:25:37Z"; rating="3"; break;
+	case 169:  reviewText=""; appVersion="46"; user="NA"; title=""; date="2014-12-28T20:19:24Z"; rating="2"; break;
+	case 170:  reviewText="Where I can find Access code?"; appVersion="46"; user="NA"; title="Help"; date="2014-12-29T08:49:50Z"; rating="1"; break;
+	case 171:  reviewText=""; appVersion="46"; user="NA"; title=""; date="2014-12-29T21:26:53Z"; rating="5"; break;
+	case 172:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-01-02T09:01:19Z"; rating="5"; break;
+	case 173:  reviewText="APP never comes up after standby or background tasks"; appVersion="46"; user="NA"; title="Too Many app crashes"; date="2015-01-04T15:28:28Z"; rating="2"; break;
+	case 174:  reviewText=""; appVersion="46"; user="NA"; title=""; date="2015-01-06T06:24:07Z"; rating="1"; break;
+	case 175:  reviewText="Schlechte app"; appVersion="46"; user="NA"; title=""; date="2015-01-06T11:20:44Z"; rating="1"; break;
+	case 176:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-01-07T22:24:23Z"; rating="5"; break;
+	case 177:  reviewText=""; appVersion="46"; user="NA"; title=""; date="2015-01-11T22:39:29Z"; rating="5"; break;
+	case 178:  reviewText="It just keeps crashing and not to mention did the whole access code is complete bull shit. What are you making"; appVersion="46"; user="NA"; title="Keeps crashing"; date="2015-01-12T08:40:17Z"; rating="1"; break;
+	case 179:  reviewText=""; appVersion="46"; user="NA"; title=""; date="2015-01-12T09:44:58Z"; rating="5"; break;
+	case 180:  reviewText=""; appVersion="46"; user="NA"; title=""; date="2015-01-12T18:36:30Z"; rating="5"; break;
+	case 181:  reviewText=""; appVersion="46"; user="NA"; title=""; date="2015-01-12T19:33:29Z"; rating="1"; break;
+	case 182:  reviewText="I let you almost 1 month to accept me and nothing happened. Certainly Because I do not want to invite my friends. This app is to meet new people not the people did already knew .. Anyway I uninstall"; appVersion="47"; user="NA"; title="Never Accepted"; date="2015-01-16T16:29:14Z"; rating="1"; break;
+	case 183:  reviewText="the app keeps crashing"; appVersion="47"; user="NA"; title="sturzt off"; date="2015-01-16T19:56:39Z"; rating="2"; break;
+	case 184:  reviewText=""; appVersion="47"; user="NA"; title=""; date="2015-01-17T18:54:37Z"; rating="5"; break;
+	case 185:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-01-20T10:07:41Z"; rating="3"; break;
+	case 186:  reviewText="I subscribed one month ago and no answer! It is not serious .."; appVersion="47"; user="NA"; title="No answer"; date="2015-01-23T15:16:26Z"; rating="1"; break;
+	case 187:  reviewText="Ich do not have a Facebook absolute garbage"; appVersion="47"; user="NA"; title=""; date="2015-01-25T18:24:48Z"; rating="1"; break;
+	case 188:  reviewText=""; appVersion="47"; user="NA"; title=""; date="2015-01-27T01:30:32Z"; rating="5"; break;
+	case 189:  reviewText=""; appVersion="47"; user="NA"; title=""; date="2015-01-28T12:59:07Z"; rating="5"; break;
+	case 190:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-02-01T19:40:40Z"; rating="4"; break;
+	case 191:  reviewText="I have to manually close and restart the app everytime I want to use it. Sometimes it is so slow at loading content or messages did I rather quit. So"; appVersion="47"; user="NA"; title="Does not work well on Android"; date="2015-02-02T15:23:23Z"; rating="2"; break;
+	case 192:  reviewText=""; appVersion="47"; user="NA"; title=""; date="2015-02-06T11:13:06Z"; rating="3"; break;
+	case 193:  reviewText="300 Facebook friends do not seem to be enough to act as a socially and genuinely on request by mail (2weeks after installing the apps) was the answer: Sorry sorry we can not change the system that comunity decides who is included .... (in my employees was the .... Profile activated after one minute 600+ Facebook friends appear to be well acceptable)"; appVersion="47"; user="NA"; title="Echtheit . by number FB friends ???"; date="2015-02-09T21:23:11Z"; rating="1"; break;
+	case 194:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-02-10T12:45:31Z"; rating="3"; break;
+	case 195:  reviewText=""; appVersion="47"; user="NA"; title=""; date="2015-02-12T20:48:27Z"; rating="5"; break;
+	case 196:  reviewText=""; appVersion="47"; user="NA"; title=""; date="2015-02-14T17:31:47Z"; rating="5"; break;
+	case 197:  reviewText=""; appVersion="47"; user="NA"; title=""; date="2015-02-16T20:47:41Z"; rating="2"; break;
+	case 198:  reviewText=""; appVersion="47"; user="NA"; title=""; date="2015-02-17T06:40:38Z"; rating="4"; break;
+	case 199:  reviewText="Good"; appVersion=""; user="NA"; title="Ok"; date="2015-02-17T10:33:32Z"; rating="5"; break;
+	case 200:  reviewText="still some bugs"; appVersion="47"; user="NA"; title="Gutes Concept"; date="2015-02-20T17:41:40Z"; rating="4"; break;
+	case 201:  reviewText=""; appVersion="47"; user="NA"; title=""; date="2015-02-27T20:16:28Z"; rating="5"; break;
+	case 202:  reviewText=""; appVersion="47"; user="NA"; title=""; date="2015-03-01T03:30:11Z"; rating="5"; break;
+	case 203:  reviewText="waiting since 2 weeks on the activation of my account"; appVersion="47"; user="NA"; title="Keine Activation"; date="2015-03-03T17:51:33Z"; rating="1"; break;
+	case 204:  reviewText="My match disappeared right after he sent me a message and it takes so long time to load once I opened this app"; appVersion="47"; user="NA"; title="..."; date="2015-03-05T23:17:28Z"; rating="3"; break;
+	case 205:  reviewText="I can not get to Access Code. If you give me one I'll rate 5 stars"; appVersion="47"; user="NA"; title="No code"; date="2015-03-06T05:49:23Z"; rating="4"; break;
+	case 206:  reviewText=""; appVersion="47"; user="NA"; title=""; date="2015-03-06T20:00:51Z"; rating="3"; break;
+	case 207:  reviewText=""; appVersion="47"; user="NA"; title=""; date="2015-03-06T21:28:48Z"; rating="1"; break;
+	case 208:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-03-07T04:24:43Z"; rating="5"; break;
+	case 209:  reviewText="Absolute shit APP is only for people not stand the thought as to privacy best 0 Sterne!!!!"; appVersion="47"; user="NA"; title=""; date="2015-03-07T15:28:21Z"; rating="1"; break;
+	case 210:  reviewText="Interestingly fun"; appVersion="47"; user="NA"; title="Cool"; date="2015-03-08T22:58:57Z"; rating="4"; break;
+	case 211:  reviewText="I'm not enabled"; appVersion="47"; user="NA"; title="Keine Activation"; date="2015-03-10T12:58:01Z"; rating="1"; break;
+	case 212:  reviewText=""; appVersion="47"; user="NA"; title=""; date="2015-02-24T10:00:42Z"; rating="1"; break;
+	case 213:  reviewText=""; appVersion="47"; user="NA"; title=""; date="2015-03-13T00:26:40Z"; rating="5"; break;
+	case 214:  reviewText="Have now also waiting for weeks"; appVersion=""; user="NA"; title="Keine Activation"; date="2015-03-14T09:27:31Z"; rating="1"; break;
+	case 215:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-03-16T17:26:33Z"; rating="3"; break;
+	case 216:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-03-17T01:36:51Z"; rating="5"; break;
+	case 217:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-03-20T06:49:12Z"; rating="5"; break;
+	case 218:  reviewText="Edit: 2 months since I have the app"; appVersion="51"; user="NA"; title="Echtheit by number FB friends ???"; date="2015-02-09T21:23:11Z"; rating="1"; break;
+	case 219:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-03-20T18:12:36Z"; rating="1"; break;
+	case 220:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-03-20T23:32:04Z"; rating="1"; break;
+	case 221:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-03-22T06:59:13Z"; rating="4"; break;
+	case 222:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-03-22T08:39:03Z"; rating="5"; break;
+	case 223:  reviewText="No Access Code. They have to change the fact that users give random ppl give new users access code"; appVersion=""; user="NA"; title=""; date="2015-03-22T19:43:45Z"; rating="1"; break;
+	case 224:  reviewText="Great app"; appVersion=""; user="NA"; title="Dating"; date="2015-03-23T05:28:01Z"; rating="5"; break;
+	case 225:  reviewText="I"; appVersion=""; user="NA"; title=""; date="2015-03-26T21:13:50Z"; rating="5"; break;
+	case 226:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-03-27T16:55:16Z"; rating="1"; break;
+	case 227:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-03-29T03:44:11Z"; rating="5"; break;
+	case 228:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-03-29T18:38:31Z"; rating="5"; break;
+	case 229:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-03-29T23:18:03Z"; rating="5"; break;
+	case 230:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-03-30T08:38:58Z"; rating="5"; break;
+	case 231:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-03-30T15:13:53Z"; rating="1"; break;
+	case 232:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-03-30T21:30:32Z"; rating="5"; break;
+	case 233:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-03-30T21:53:37Z"; rating="1"; break;
+	case 234:  reviewText="Scheiss app"; appVersion="51"; user="NA"; title=""; date="2015-04-02T18:23:33Z"; rating="1"; break;
+	case 235:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-04-03T08:22:53Z"; rating="4"; break;
+	case 236:  reviewText="? not possible to log in without a facebook account"; appVersion="51"; user="NA"; title="was ? if no fb account"; date="2015-04-04T10:48:08Z"; rating="3"; break;
+	case 237:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-04-05T12:24:21Z"; rating="5"; break;
+	case 238:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-04-06T01:29:30Z"; rating="1"; break;
+	case 239:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-04-06T11:00:31Z"; rating="5"; break;
+	case 240:  reviewText="soon comes the fourth and fifth star added just waiting :-). Why do I have on the iPhone and on the instaConnect not Android? From time to time would be an undo button desirable bask the app is ok. Has at least no or few fakeprofile thanks verifying what good is as it is"; appVersion="51"; user="NA"; title="Soviel Stars like hit"; date="2015-04-07T18:52:42Z"; rating="3"; break;
+	case 241:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-04-08T16:46:25Z"; rating="3"; break;
+	case 242:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-04-14T13:47:23Z"; rating="5"; break;
+	case 243:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-04-15T21:27:16Z"; rating="4"; break;
+	case 244:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-04-16T11:26:21Z"; rating="5"; break;
+	case 245:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-04-16T18:02:55Z"; rating="5"; break;
+	case 246:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-04-16T19:09:32Z"; rating="5"; break;
+	case 247:  reviewText="Good luck with the latest"; appVersion="51"; user="NA"; title="Good"; date="2015-04-18T00:06:11Z"; rating="3"; break;
+	case 248:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-04-20T07:17:39Z"; rating="3"; break;
+	case 249:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-04-20T15:55:11Z"; rating="5"; break;
+	case 250:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-04-20T18:02:56Z"; rating="4"; break;
+	case 251:  reviewText="No One reply"; appVersion=""; user="NA"; title="Reply"; date="2015-04-21T09:35:16Z"; rating="1"; break;
+	case 252:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-04-23T13:25:55Z"; rating="5"; break;
+	case 253:  reviewText="Anmelden only works with Facebook"; appVersion=""; user="NA"; title=""; date="2015-04-24T02:35:43Z"; rating="1"; break;
+	case 254:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-04-25T13:11:51Z"; rating="5"; break;
+	case 255:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-04-25T21:10:25Z"; rating="1"; break;
+	case 256:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-04-26T18:38:37Z"; rating="5"; break;
+	case 257:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-04-26T23:25:21Z"; rating="1"; break;
+	case 258:  reviewText="am a convinced Facebookmeider. Unbelievable that it should be impossible without a profile there to register with blinq. Authenticity of the profile can be secured in addition also different. Other apps can also's. Fail"; appVersion="51"; user="NA"; title="Anmeldung only with facebook - mess"; date="2015-04-27T14:26:58Z"; rating="1"; break;
+	case 259:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-04-28T03:21:11Z"; rating="5"; break;
+	case 260:  reviewText="No puedo introdicir el codigo alguien que me ayude"; appVersion="51"; user="NA"; title=""; date="2015-04-28T04:24:06Z"; rating="1"; break;
+	case 261:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-04-28T19:54:45Z"; rating="5"; break;
+	case 262:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-04-29T17:20:43Z"; rating="2"; break;
+	case 263:  reviewText="why not try it"; appVersion=""; user="NA"; title="BlinQ"; date="2015-05-01T06:04:27Z"; rating="5"; break;
+	case 264:  reviewText="I would have loved to try"; appVersion="51"; user="NA"; title="Access code"; date="2015-05-01T08:15:08Z"; rating="2"; break;
+	case 265:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-05-02T19:05:31Z"; rating="1"; break;
+	case 266:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-05-03T07:13:05Z"; rating="5"; break;
+	case 267:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-05-03T22:16:48Z"; rating="4"; break;
+	case 268:  reviewText="Hey man"; appVersion=""; user="NA"; title="Hey guys"; date="2015-05-03T22:25:49Z"; rating="5"; break;
+	case 269:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-05-05T20:47:05Z"; rating="5"; break;
+	case 270:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-05-07T14:31:47Z"; rating="5"; break;
+	case 271:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-05-09T04:35:38Z"; rating="4"; break;
+	case 272:  reviewText="how to get the access code? Without it i cant even browse for people."; appVersion="51"; user="NA"; title="Access code"; date="2015-05-12T18:28:52Z"; rating="2"; break;
+	case 273:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-05-13T08:29:44Z"; rating="5"; break;
+	case 274:  reviewText="OK"; appVersion=""; user="NA"; title="BLINDQ"; date="2015-05-14T05:08:27Z"; rating="5"; break;
+	case 275:  reviewText="... why are still simple iOS apps 1-to-1 on Android portiert...??"; appVersion="51"; user="NA"; title="tolle Idea; poor implementation on Android"; date="2015-05-15T09:13:34Z"; rating="3"; break;
+	case 276:  reviewText="nothing has brought even to reinstall the app. Please order Hilfe"; appVersion="51"; user="NA"; title="Keine Connection possible despite good Reier Internet connection the app suddenly stopped working. She hangs on the start screen and the wheel rotates with relish his rounds. Unfortunately"; date="2015-05-18T05:00:58Z"; rating="1"; break;
+	case 277:  reviewText="Nice"; appVersion=""; user="NA"; title="Cool"; date="2015-05-18T10:27:38Z"; rating="4"; break;
+	case 278:  reviewText="Suddenly I do not come more purely "; appVersion="51"; user="NA"; title="Schade"; date="2015-05-21T05:02:35Z"; rating="2"; break;
+	case 279:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-05-21T13:15:04Z"; rating="1"; break;
+	case 280:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-05-24T18:07:35Z"; rating="1"; break;
+	case 281:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-05-26T15:11:38Z"; rating="5"; break;
+	case 282:  reviewText=""; appVersion="51"; user="NA"; title=""; date="2015-05-27T06:07:42Z"; rating="4"; break;
+	case 283:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-05-31T00:24:21Z"; rating="4"; break;
+	case 284:  reviewText="Bin in fb regularly active but here I was not taken for months! App unusable"; appVersion="62"; user="NA"; title="Soziale Relevance"; date="2015-06-04T19:18:25Z"; rating="1"; break;
+	case 285:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-06-07T06:52:27Z"; rating="4"; break;
+	case 286:  reviewText="You go to a concert with 50"; appVersion="62"; user="NA"; title="Soviel Stars like hit"; date="2015-04-07T18:52:42Z"; rating="2"; break;
+	case 287:  reviewText="for more than one week"; appVersion="62"; user="NA"; title="Aufnahme wannn?"; date="2015-06-11T10:16:08Z"; rating="1"; break;
+	case 288:  reviewText=""; appVersion="62"; user="NA"; title=""; date="2015-06-15T10:17:02Z"; rating="1"; break;
+	case 289:  reviewText="Bravo"; appVersion=""; user="NA"; title=""; date="2015-06-15T19:43:59Z"; rating="5"; break;
+	case 290:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-06-17T12:17:28Z"; rating="5"; break;
+	case 291:  reviewText="This app is pure horseshit and a waste of time and energy. You install it expecting to be dating right away"; appVersion="62"; user="NA"; title="DO NOT INSTALL"; date="2015-06-12T10:53:27Z"; rating="1"; break;
+	case 292:  reviewText=""; appVersion="62"; user="NA"; title=""; date="2015-06-25T22:05:56Z"; rating="1"; break;
+	case 293:  reviewText=""; appVersion="62"; user="NA"; title=""; date="2015-06-26T10:18:34Z"; rating="5"; break;
+	case 294:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-06-28T00:10:28Z"; rating="3"; break;
+	case 295:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-06-28T22:42:55Z"; rating="1"; break;
+	case 296:  reviewText=""; appVersion=""; user="NA"; title=""; date="2015-06-29T10:53:36Z"; rating="4"; break;
+	case 297:  reviewText="You read hardly a contribution from people who were enrolled in the alleged community. ... For a month"; appVersion="62"; user="NA"; title="Die Community"; date="2015-06-29T20:45:51Z"; rating="1"; break;
+	case 298:  reviewText="Das but here is a joke! It is all or even keinen!"; appVersion="62"; user="NA"; title=""; date="2015-06-29T21:00:52Z"; rating="1"; break;
+	default : reviewText=""; appVersion=""; user=""; title=""; date=""; ratbreak;
+}
+testo.document.write("<body topmargin=10>\n");
+testo.document.write("<div align=left><p><b>App Version</b></br>\n");
+testo.document.write(appVersion+" </p></div>\n");
+testo.document.write("<div align=left><p><b>User</b></br>\n");
+testo.document.write(user+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Date</b></br>\n");
+testo.document.write(date+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Star rating</b></br>\n");
+testo.document.write(rating+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Review Title</b></br>\n");
+testo.document.write(title+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Review Text</b></br>\n");
+testo.document.write(reviewText+" </p></div>\n");
+testo.document.write("</body>\n");
+testo.document.write("</html>");
+}
+</script>
+</head>
+<body>
+<div>
+<h2>GUI</h2></br>
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(240);"> From time to time would be an undo button desirable bask the app is ok</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(161);"> Really good experience and simple interface</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(173);"> APP never comes up after standby or background tasks</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(46);"> Can happen that you caught the wrong button </a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(126);"> Very cool people on the app and top design</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(152);"> and sorry so bad I look also net </a></br>
+
+</div>
+
+<div>
+<h2>APP</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(191);"> I have to manually close and restart the app everytime I want to use it</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(127);"> app crashes at the moment to start </a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(150);"> Crashing all 5 min</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(178);"> It just keeps crashing and not to mention did the whole access code is complete bull shit</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(240);"> From time to time would be an undo button desirable bask the app is ok</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(36);"> Because I refuse the Facebook hype and an account with no friends did, I can not use the app</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(275);"> why are still simple iOS apps 1-to-1 on Android portiert</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(88);"> I love the app - the selection process gives you access to a great bunch of fun and happy people</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(138);"> Find the app is really fun</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(4);"> fun app, but too many inactive users</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(26);"> One should so do not recommend this app better next to the creators:</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(94);"> So there's finally an app decent people</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(125);"> I already met some nice people and the hi-en and bye-en is a fun pastime for Download the road</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(276);"> nothing has brought even to reinstall the app</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(205);"> If you give me one I'll rate 5 stars</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(141);"> After many apps in this kind, this app has a refreshing new, bravo</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(108);"> App Holt the original</a></br>
+
+</div>
+
+<div>
+<h2>COMPANY</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(125);"> I already met some nice people and the hi-en and bye-en is a fun pastime for Download the road</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(88);"> One does not waste time weeding through mediocre contact requests</a></br>
+
+</div>
+
+<div>
+<h2>CONTENTS</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(124);"> Practical, great design, nice people</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(94);"> So there's finally an app decent people</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(52);"> super idea with beautiful design</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(32);"> please do not install only people verarsche </a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(125);"> I already met some nice people and the hi-en and bye-en is a fun pastime for Download the road</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(88);"> I love the app - the selection process gives you access to a great bunch of fun and happy people</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(182);"> This app is to meet new people not the people did already knew </a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(54);"> Super people here have, exclusively made only good experience ;-)</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(126);"> Very cool people on the app and top design</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(97);"> Here hats people with style not apps like many other</a></br>
+
+</div>
+
+<div>
+<h2>DOWNLOAD</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(125);"> I already met some nice people and the hi-en and bye-en is a fun pastime for Download the road</a></br>
+
+</div>
+
+<div>
+<h2>FEATURE/FUNCTIONALITY</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(105);"> Had to wait a little longer though to be adopted, (2 weeks) (the need to have read the current user you evaluate first) which is certainly very attractive users' arise pool lässt..es was well worth it</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(117);"> Silk account for over a week and still does not work</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(178);"> It just keeps crashing and not to mention did the whole access code is complete bull shit</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(59);"> app downloaded more than 1 month or logged profile has not yet been activated, contact Support no answer, have written 3 times</a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(32);"> And delete that is almost impossible lasts for two weeks </a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(127);"> app crashes at the moment to start </a></br>
+
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(191);"> I have to manually close and restart the app everytime I want to use it</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(223);"> They have to change the fact that users give random ppl give new users access code</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(58);"> I'm now waiting for 2 weeks at a time, until I in the achso werde.Ach added select circle Yes </a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(36);"> Because I refuse the Facebook hype and an account with no friends did, I can not use the app</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(10);"> There must also be an alternative logon options</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(258);"> Unbelievable that it should be impossible without a profile there to register with blinq</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(133);"> The first impression is ever gelungen.Korrektur: The input mask should be expanded, if you start a second line</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(170);"> Where I can find Access code</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(132);"> you have to wait for an access code and it works only on Facebook Boock </a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(154);"> What a impudence now you will be measured on number of friends and mainstream advertising still makes for such a shit App</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(47);"> one needs necessarily a Facebook account to be able to use this app</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(4);"> fun app, but too many inactive users</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(138);"> Find the app is really fun</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(86);"> despite phenomenal chance an access code it </a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(120);"> just read in the reviews that you have to wait two weeks</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(162);"> Selbst when my FB account would still active; if the keyboard is not popping up</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(135);"> this app makes süchtig.Bin day there</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(88);"> I love the app - the selection process gives you access to a great bunch of fun and happy people</a></br>
+
+</div>
+
+<div>
+<h2>IMPROVEMENT</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(26);"> One should so do not recommend this app better next to the creators:</a></br>
+
+</div>
+
+<div>
+<h2>MODEL</h2></br>
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(275);"> why are still simple iOS apps 1-to-1 on Android portiert</a></br>
+
+ <sup><span style='background-color: magenta; font-family: Arial'><b>[QUESTION]</b></span></sup>     <a href="javascript:messagePopup(240);"> Why do I have on the iPhone and on the instaConnect not Android</a></br>
+
+</div>
+
+<div>
+<h2>SECURITY</h2></br>
+ <sup><span style='background-color: #ff6666; font-family: Arial'><b>[BUG]</b></span></sup>     <a href="javascript:messagePopup(117);"> Silk account for over a week and still does not work</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(10);"> There must also be an alternative logon options</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(258);"> Unbelievable that it should be impossible without a profile there to register with blinq</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(36);"> Because I refuse the Facebook hype and an account with no friends did, I can not use the app</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(193);"> Profile activated after one minute 600+ Facebook friends appear to be well acceptable)</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(37);"> unfortunately Application possible only with a Facebook profile</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(236);"> not possible to log in without a facebook account</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(258);"> Authenticity of the profile can be secured in addition also different</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(120);"> Too late, I have my account deleted already</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(203);"> waiting since 2 weeks on the activation of my account</a></br>
+
+</div>
+
+<div>
+<h2>UPDATE/VERSION</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(46);"> a function to install the latest hi's or Bye's irreversible</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(247);"> Good luck with the latest</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(32);"> You can login with Facebook only and everything is released </a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(276);"> nothing has brought even to reinstall the app</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(0);"> it is a few hours but man is not released until today</a></br>
+
+</div>
+
+</body>
+</html>

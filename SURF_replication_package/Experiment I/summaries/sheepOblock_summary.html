@@ -1,0 +1,133 @@
+<html>
+<head>
+<h1>APP REVIEWS SUMMARY</h1>
+<script type="text/javascript">
+function messagePopup(message_id) {
+var stili = "top=10, left=10, width=400, height=250, location=no, directories=no, status=no, menubar=no, toolbar=no scrollbars=no";
+var testo = window.open("", "", stili);
+testo.document.write("<html>\n");
+testo.document.write(" <head>\n");
+testo.document.write("  <title>Review Details</title>\n");
+testo.document.write("  <basefont size=2 face=Tahoma>\n");
+testo.document.write(" </head>\n");
+switch(message_id){
+	case 0:  reviewText="Highly addictive :-)"; appVersion="1.70"; user="Nay76"; title="Very addictive"; date="2013-07-01"; rating="5"; break;
+	case 1:  reviewText="Good fun!"; appVersion="1.60"; user="134me2"; title="Sheeporama"; date="2012-08-12"; rating="3"; break;
+	case 2:  reviewText="Sheepishly addicted"; appVersion="1.60"; user="Buffy&Bruce"; title="Baa aaa rly able to put it down"; date="2012-04-15"; rating="5"; break;
+	case 3:  reviewText="This game is an easy time waster.  Kids really like it."; appVersion="1.60"; user="Sarykamum"; title="Cute game"; date="2012-04-22"; rating="4"; break;
+	case 4:  reviewText="Totally addictive!"; appVersion="1.60"; user="Tigula"; title="Good!!"; date="2011-10-27"; rating="5"; break;
+	case 5:  reviewText="Great game an so addictive !!!!!!!"; appVersion="1.70"; user="Megan9927"; title="Fun"; date="2013-02-04"; rating="5"; break;
+	case 6:  reviewText="Love playing really addictive. Sheep are so cute.Sailor501"; appVersion="1.60"; user="Sailor501"; title="Sheep-O-Rama"; date="2012-11-28"; rating="5"; break;
+	case 7:  reviewText="Totally addictive & sheep are so cute"; appVersion="1.60"; user="Paulapud64"; title="Addictive"; date="2012-09-22"; rating="5"; break;
+	case 8:  reviewText="What an excellent little game, warning v addictive! More levels please."; appVersion="1.60"; user="Ejstrachred"; title="Baaaaaaarill!"; date="2012-03-06"; rating="5"; break;
+	case 9:  reviewText="Love sheep baaaaass"; appVersion="1.60"; user="Zim zimaa"; title="Baaaa"; date="2011-12-28"; rating="4"; break;
+	case 10:  reviewText="Much more entertaining than the usual burst the bubbles puzzles. More levels or perhaps target a colour games would be good.Sound effects might make you laugh .... or scream .... or turn off the sound.  Download and hear for yourselves!"; appVersion="1.30"; user="MM3 YPH"; title="Hilarious!"; date="2011-04-08"; rating="4"; break;
+	case 11:  reviewText="It's not the best but it's free ?Definatly worth dowloading"; appVersion="1.30"; user="OatMeal_UK"; title="Good game"; date="2011-03-31"; rating="4"; break;
+	case 12:  reviewText="This game is amazing and it's free!!! 5 stars"; appVersion="1.10"; user="Aimee .x."; title="Awesoomeeeeee"; date="2011-02-01"; rating="5"; break;
+	case 13:  reviewText="I just looove this game!!"; appVersion="1.70"; user="Titi Jo"; title="Sheep O Block"; date="2013-06-21"; rating="5"; break;
+	case 14:  reviewText="Great game,lots of fun."; appVersion="1.60"; user="Gloria/miggi"; title="Fun"; date="2013-01-10"; rating="1"; break;
+	case 15:  reviewText="This is a really fun game."; appVersion="1.60"; user="Gothic-pop"; title="Fun"; date="2012-12-27"; rating="5"; break;
+	case 16:  reviewText="Un-baaaalievable how addictive this game can be, I find myself counting sheep each night before I sleep!"; appVersion="1.60"; user="Lintwin"; title="Ewe will love it!"; date="2012-07-29"; rating="5"; break;
+	case 17:  reviewText="Cute little game! Sheep noises are a hoot! Driving my dog crazy!"; appVersion="1.60"; user="Sdwv"; title="Fun game"; date="2012-07-07"; rating="4"; break;
+	case 18:  reviewText="Great fun."; appVersion="1.60"; user="Quilter913"; title="I love this game."; date="2012-05-02"; rating="4"; break;
+	case 19:  reviewText="This game is so much fun!  I love the little sleepy sounds.  What a great game!"; appVersion="1.60"; user="Mikenval71"; title="Great sleepy fun"; date="2012-04-27"; rating="5"; break;
+	case 20:  reviewText="Fun"; appVersion="1.60"; user="Saramachele"; title="Fun"; date="2012-04-16"; rating="4"; break;
+	case 21:  reviewText="This game is funny and exciting. I like the sheep noises. it is quite challenging."; appVersion="1.60"; user="J SLP"; title="Wow"; date="2012-04-07"; rating="5"; break;
+	case 22:  reviewText="A good distraction."; appVersion="1.60"; user="Rosieblossom"; title="Fun!"; date="2012-01-15"; rating="5"; break;
+	case 23:  reviewText="Initially downloaded on my iPod touch.  Screen is just too small."; appVersion="1.60"; user="PatfrmtheLBC"; title="Better on iPad"; date="2012-01-10"; rating="4"; break;
+	case 24:  reviewText="It's addictive because I keep trying to beat my previous scores and highest level!  Recommended"; appVersion="1.60"; user="DINOSTEE"; title="Sheepy fun!"; date="2011-12-28"; rating="5"; break;
+	case 25:  reviewText="Didn't think such a simple game could be so addictive!"; appVersion="1.60"; user="Little bonbon"; title="Sheep-o-Rama"; date="2011-10-26"; rating="4"; break;
+	case 26:  reviewText="Quite a bit of fun"; appVersion="1.50"; user="Queen GinGin"; title="Herding sheep"; date="2011-10-15"; rating="5"; break;
+	case 27:  reviewText="This game kills me.  I love the sheep!!!!"; appVersion="1.50"; user="ZogsSurf"; title="Sheerly sheeps"; date="2011-09-26"; rating="5"; break;
+	case 28:  reviewText="Lots of fun...."; appVersion="1.40"; user="Fsjmaw"; title="Bahhhh"; date="2011-08-21"; rating="5"; break;
+	case 29:  reviewText="This is the best stragie game ever I recommend this to any one whom likes challenges"; appVersion="1.40"; user="Froggy lover Sammy"; title="This is the best"; date="2011-08-20"; rating="5"; break;
+	case 30:  reviewText="I love this game.  It's a lot of fun and the sound effects are cute."; appVersion="1.40"; user="JoceTay"; title="Baaaaaa!"; date="2011-07-29"; rating="4"; break;
+	case 31:  reviewText="I play it when I'm bored cuz it's relaxing!"; appVersion="1.40"; user="bernergirl"; title="Wease"; date="2011-07-24"; rating="5"; break;
+	case 32:  reviewText="I wish it were possible to extend the time!  This is a very fun game and I'd like to be able to plan a bit more & be more strategic in my moves instead of just touching sheep by intuition."; appVersion="1.30"; user="npb84"; title="Cute, Fun, But I Wish..."; date="2011-03-21"; rating="4"; break;
+	case 33:  reviewText="But gets boring quickly. Great for younger kids."; appVersion="1.30"; user="Alistaire34"; title="Cute"; date="2011-03-20"; rating="3"; break;
+	case 34:  reviewText="Cute and fun!"; appVersion="1.20"; user="Zzzzzzzzzzzzzzzzz :P"; title="Cute"; date="2011-03-06"; rating="5"; break;
+	default : reviewText=""; appVersion=""; user=""; title=""; date=""; ratbreak;
+}
+testo.document.write("<body topmargin=10>\n");
+testo.document.write("<div align=left><p><b>App Version</b></br>\n");
+testo.document.write(appVersion+" </p></div>\n");
+testo.document.write("<div align=left><p><b>User</b></br>\n");
+testo.document.write(user+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Date</b></br>\n");
+testo.document.write(date+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Star rating</b></br>\n");
+testo.document.write(rating+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Review Title</b></br>\n");
+testo.document.write(title+" </p></div>\n");
+testo.document.write("<div align=left><p><b>Review Text</b></br>\n");
+testo.document.write(reviewText+" </p></div>\n");
+testo.document.write("</body>\n");
+testo.document.write("</html>");
+}
+</script>
+</head>
+<body>
+<div>
+<h2>GUI</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(23);"> Screen is just too small</a></br>
+
+</div>
+
+<div>
+<h2>APP</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(30);"> I love this game</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(15);"> This is a really fun game</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(6);"> Love playing really addictive</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(19);"> I love the little sleepy sounds</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(30);"> It's a lot of fun and the sound effects are cute</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(26);"> Quite a bit of fun</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(29);"> This is the best stragie game ever I recommend this to any one whom likes challenges</a></br>
+
+</div>
+
+<div>
+<h2>DOWNLOAD</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(10);"> Download and hear for yourselves</a></br>
+
+</div>
+
+<div>
+<h2>FEATURE/FUNCTIONALITY</h2></br>
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(32);"> This is a very fun game and I'd like to be able to plan a bit more & be more strategic in my moves instead of just touching sheep by intuition</a></br>
+
+ <sup><span style='background-color: yellow; font-family: Arial'><b>[REQUEST]</b></span></sup>     <a href="javascript:messagePopup(10);"> More levels or perhaps target a colour games would be good.Sound effects might make you laugh </a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>     <a href="javascript:messagePopup(16);"> Un-baaaalievable how addictive this game can be, I find myself counting sheep each night before I sleep</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(24);"> It's addictive because I keep trying to beat my previous scores and highest level</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(10);"> or turn off the sound</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(10);"> Download and hear for yourselves</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(3);"> Kids really like it</a></br>
+
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(10);"> Much more entertaining than the usual burst the bubbles puzzles</a></br>
+
+</div>
+
+<div>
+<h2>MODEL</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(23);"> Initially downloaded on my iPod touch</a></br>
+
+</div>
+
+<div>
+<h2>PRICING</h2></br>
+ <sup><span style='background-color: #f8f8ff; font-family: Arial'><b>[INFO]</b></span></sup>   <a href="javascript:messagePopup(11);"> It's not the best but it's free ?Definatly worth dowloading</a></br>
+
+</div>
+
+</body>
+</html>
