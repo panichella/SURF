@@ -2,12 +2,11 @@
 Replication Package for the paper entitled "Summarizing App Reviews for Planning Future Change Tasks"
 
 Description of the content of folder "SURF_replication_package":
-
 1) "Experiment I" contains:
    a) the folder "summaries" which contains all the html summaries generated through SURF 
       and browsed by study participants involved in the Experiment I.
-   b) the folder "XMLreviews" which contains, for each app involved in the Experiment I, 
-      the corresponding reviews collected in the xml file. These xml files have been used 
+   b) the folder "XMLreviews" which contains, for each of the apps involved in the Experiment I, 
+      the corresponding XML file containing all the collected reviews for that app. These xml files have been used 
       as input files for the SURF tool for generating the summaries contained in 
       the "summaries" folder
    c) "Experiment_I_results.xlsx" which contains all the answers to our 
@@ -16,8 +15,8 @@ Description of the content of folder "SURF_replication_package":
 2) "Experiment II" contains:
    a) the folder "summaries" which contains the two html summaries generated through SURF 
       and browsed by study participants in the Experiment II.
-   b) the folder "XMLreviews" which contains, for each of the two app involved in the Experiment I, 
-      the reviews collected in the corresponding xml files. These xml files have been used 
+   b) the folder "XMLreviews" which contains, for each of the two apps involved in the Experiment II, 
+      the corresponding XML file containing all the collected reviews for that app. These xml files have been used 
       as input of the SURF tool for generating the summaries contained in 
       the "summaries" folder.
    c) "Experiment_II_results.xlsx" which contains all the user feedbacks 
@@ -27,3 +26,8 @@ Description of the content of folder "SURF_replication_package":
         
 3) "Survey.pdf" which contains the pdf version of the survey performed by
    the participants
+
+4) "SURF_tool.zip" contains:
+   a) "SURF.jar", which contains the class files of a prototypical implementation of SURF
+   b) "README.txt" which contains the instructions to run the SURF tool
+   c) the "lib" folder, which contains all the java libraries needed for running SURF.
