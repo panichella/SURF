@@ -1,5 +1,5 @@
 # SURF
-Replication Package for the paper entitled "Summarizing App Reviews for Planning Future Change Tasks"
+Replication Package for the paper entitled "Summarizing App Reviews  for Recommending Software Changes"
 
 Description of the content of folder "SURF_replication_package":
 1) "Experiment I" contains:
